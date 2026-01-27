@@ -1,0 +1,22 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "hvac",
+      "model_number": "A5AHC004A1D30AA",
+      "serial_number": "25463TWL3V",
+      "manufacture_date": "11/12/2025"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "BAYHTR1517BRKAB",
+      "serial_number": "2530B1AGNX",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "A5HP4036A1000AA",
+      "serial_number": "25325X1WFF",
+      "manufacture_date": "8/2025"
+    }
+  ]
+}

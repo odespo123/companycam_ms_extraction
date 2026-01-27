@@ -1,0 +1,214 @@
+{
+  "visit_id": "test_3",
+  "per_image": [
+    {
+      "image": "1-Dec 10 2025 10_07am-q84x.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "A5AHC004A1D30AA",
+          "serial_number": "25463TWL3V",
+          "manufacture_date": "11/12/2025"
+        }
+      ]
+    },
+    {
+      "image": "10-Dec 10 2025 02_24pm-5RxV.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11-Dec 10 2025 02_24pm-pKRC.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12-Dec 10 2025 02_24pm-XpLj.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13-Dec 10 2025 02_30pm-J8jf.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14-Dec 10 2025 02_31pm-KeiH.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15-Dec 10 2025 02_31pm-5Akg.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16-Dec 10 2025 02_37pm-FjDU.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17-Dec 10 2025 02_37pm-cCmt.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18-Dec 10 2025 02_37pm-hoLt.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19-Dec 10 2025 02_37pm-Agjv.jpg",
+      "equipment": []
+    },
+    {
+      "image": "2-Dec 10 2025 12_27pm-bJUt.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "BAYHTR1517BRKAB",
+          "serial_number": "2530B1AGNX",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "20-Dec 10 2025 02_38pm-5Xjb.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21-Dec 10 2025 02_38pm-fUyo.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22-Dec 10 2025 02_38pm-wQvZ.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23-Dec 10 2025 02_48pm-Tca1.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "A5HP4036A1000AA",
+          "serial_number": "25325X1WFF",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "24-Dec 10 2025 02_48pm-o3fS.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25-Dec 10 2025 02_49pm-7ukt.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26-Dec 10 2025 02_54pm-SRfd.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27-Dec 10 2025 03_06pm-CxmN.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28-Dec 10 2025 03_06pm-ahBQ.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "A5HP4036A1000AA",
+          "serial_number": "25325X1WFF",
+          "manufacture_date": "8/2025"
+        }
+      ]
+    },
+    {
+      "image": "29-Dec 10 2025 03_06pm-DxEV.jpg",
+      "equipment": []
+    },
+    {
+      "image": "3-Dec 10 2025 12_27pm-KFM2.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30-Dec 10 2025 03_06pm-wZjH.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31-Dec 10 2025 03_06pm-FYoW.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32-Dec 10 2025 03_06pm-jZZ4.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33-Dec 10 2025 03_07pm-rxtD.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34-Dec 10 2025 03_07pm-q4N5.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35-Dec 10 2025 03_15pm-voYx.jpg",
+      "equipment": []
+    },
+    {
+      "image": "36-Dec 10 2025 03_16pm-yVwq.jpg",
+      "equipment": []
+    },
+    {
+      "image": "37-Dec 10 2025 03_16pm-xVGe.jpg",
+      "equipment": []
+    },
+    {
+      "image": "4-Dec 10 2025 12_27pm-3GDL.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "BAYHTR1517BRKAB",
+          "serial_number": "2530B1AQNX",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "5-Dec 10 2025 01_37pm-ZdFN.jpg",
+      "equipment": []
+    },
+    {
+      "image": "6-Dec 10 2025 02_22pm-Yux3.jpg",
+      "equipment": []
+    },
+    {
+      "image": "7-Dec 10 2025 02_22pm-DaEb.jpg",
+      "equipment": []
+    },
+    {
+      "image": "8-Dec 10 2025 02_22pm-hfSX.jpg",
+      "equipment": []
+    },
+    {
+      "image": "9-Dec 10 2025 02_22pm-WPBo.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "hvac",
+      "model_number": "A5AHC004A1D30AA",
+      "serial_number": "25463TWL3V",
+      "manufacture_date": "11/12/2025"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "BAYHTR1517BRKAB",
+      "serial_number": "2530B1AGNX",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "A5HP4036A1000AA",
+      "serial_number": "25325X1WFF",
+      "manufacture_date": "8/2025"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "BAYHTR1517BRKAB",
+      "serial_number": "2530B1AQNX",
+      "manufacture_date": null
+    }
+  ]
+}

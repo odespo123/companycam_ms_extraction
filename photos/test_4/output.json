@@ -1,0 +1,195 @@
+{
+  "visit_id": "test_4",
+  "per_image": [
+    {
+      "image": "1-Aug 14 2024 03_03pm-uhZD.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10-Aug 14 2024 03_27pm-Xfjt.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "4TTX6030J1000CA",
+          "serial_number": "22231H8H5F",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "11-Aug 14 2024 03_27pm-BAVX.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "D157247P16",
+          "serial_number": "210905308676",
+          "manufacture_date": "22112021"
+        }
+      ]
+    },
+    {
+      "image": "12-Aug 14 2024 03_28pm-Nusd.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "D157247P16",
+          "serial_number": "210905308676",
+          "manufacture_date": "22112021"
+        }
+      ]
+    },
+    {
+      "image": "13-Aug 14 2024 03_28pm-Lsx7.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14-Aug 14 2024 03_28pm-nUgX.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15-Aug 14 2024 03_29pm-4NLC.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16-Aug 14 2024 03_30pm-Jj3x.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17-Aug 14 2024 03_34pm-xqq4.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18-Aug 14 2024 03_35pm-n5eN.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19-Aug 14 2024 03_35pm-ZeZG.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "4TTX6030J1000CA",
+          "serial_number": "22231H8H5F",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "2-Aug 14 2024 03_03pm-6hCu.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "4TXCB004DS3HCBV",
+          "serial_number": "22192A69CV",
+          "manufacture_date": "5/2022"
+        }
+      ]
+    },
+    {
+      "image": "20-Aug 14 2024 03_35pm-9ewQ.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "4TTX6030J1000CA",
+          "serial_number": "22231H8H5F",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "21-Aug 14 2024 03_35pm-d82L.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22-Aug 14 2024 03_36pm-4aYr.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23-Aug 14 2024 03_43pm-89G4.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24-Aug 14 2024 03_43pm-wef4.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25-Aug 14 2024 03_45pm-UYfe.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26-Aug 14 2024 03_46pm-ymeL.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27-Aug 14 2024 03_46pm-Xyvb.jpg",
+      "equipment": []
+    },
+    {
+      "image": "3-Aug 14 2024 03_03pm-XN33.jpg",
+      "equipment": []
+    },
+    {
+      "image": "4-Aug 14 2024 03_05pm-942d.jpg",
+      "equipment": []
+    },
+    {
+      "image": "5-Aug 14 2024 03_05pm-EFmP.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "4TTX6030J1000CA",
+          "serial_number": "22231H8H5F",
+          "manufacture_date": "6/2022"
+        }
+      ]
+    },
+    {
+      "image": "6-Aug 14 2024 03_13pm-vWim.jpg",
+      "equipment": [
+        {
+          "equipment_type": "hvac",
+          "model_number": "S8X2B080M4PSCAB",
+          "serial_number": "222035JRHG",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "7-Aug 14 2024 03_13pm-eiDm.jpg",
+      "equipment": []
+    },
+    {
+      "image": "8-Aug 14 2024 03_15pm-UAKi.jpg",
+      "equipment": []
+    },
+    {
+      "image": "9-Aug 14 2024 03_26pm-2j8f.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "hvac",
+      "model_number": "4TTX6030J1000CA",
+      "serial_number": "22231H8H5F",
+      "manufacture_date": "6/2022"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "D157247P16",
+      "serial_number": "210905308676",
+      "manufacture_date": "22112021"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "4TXCB004DS3HCBV",
+      "serial_number": "22192A69CV",
+      "manufacture_date": "5/2022"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "S8X2B080M4PSCAB",
+      "serial_number": "222035JRHG",
+      "manufacture_date": null
+    }
+  ]
+}

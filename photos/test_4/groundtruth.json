@@ -1,0 +1,28 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "hvac",
+      "model_number": "4TTX6030J1000CA",
+      "serial_number": "22231H8H5F",
+      "manufacture_date": "6/2022"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "D157247P16",
+      "serial_number": "210905308676",
+      "manufacture_date": "22112021"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "4TXCB004DS3HCBV",
+      "serial_number": "22192A69CV",
+      "manufacture_date": "5/2022"
+    },
+    {
+      "equipment_type": "hvac",
+      "model_number": "S8X2B080M4PSCAB",
+      "serial_number": "222035JRHG",
+      "manufacture_date": null
+    }
+  ]
+}

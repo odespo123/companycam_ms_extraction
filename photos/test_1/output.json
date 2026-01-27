@@ -1,0 +1,143 @@
+{
+  "visit_id": "test_1",
+  "per_image": [
+    {
+      "image": "1-Jan 27 2026 09_34am-G6dC.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10-Jan 27 2026 09_47am-CRTw.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11-Jan 27 2026 09_47am-FYHV.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12-Jan 27 2026 09_48am-Y7g5.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13-Jan 27 2026 09_48am-CXm4.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14-Jan 27 2026 09_48am-NqBR.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15-Jan 27 2026 09_48am-Zi8c.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16-Jan 27 2026 09_50am-3RbV.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17-Jan 27 2026 09_57am-dyvo.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18-Jan 27 2026 10_29am-r8QJ.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19-Jan 27 2026 10_29am-wiVW.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "82V40-2",
+          "serial_number": "RH 1006209557",
+          "manufacture_date": "10/2006"
+        }
+      ]
+    },
+    {
+      "image": "2-Jan 27 2026 09_45am-nfsc.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20-Jan 27 2026 10_29am-72nE.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "82V40-2",
+          "serial_number": "RH 1006209557",
+          "manufacture_date": "10/2006"
+        }
+      ]
+    },
+    {
+      "image": "21-Jan 27 2026 10_29am-Vyhp.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22-Jan 27 2026 10_29am-9iRD.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23-Jan 27 2026 10_30am-4rtf.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24-Jan 27 2026 10_30am-tjUh.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25-Jan 27 2026 10_32am-tGxL.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26-Jan 27 2026 10_32am-YX8e.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27-Jan 27 2026 10_53am-ziE1.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28-Jan 27 2026 10_53am-NMUw.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29-Jan 27 2026 10_53am-YHnT.jpg",
+      "equipment": []
+    },
+    {
+      "image": "3-Jan 27 2026 09_45am-YXyL.jpg",
+      "equipment": []
+    },
+    {
+      "image": "4-Jan 27 2026 09_45am-NbLL.jpg",
+      "equipment": []
+    },
+    {
+      "image": "5-Jan 27 2026 09_45am-Jcjd.jpg",
+      "equipment": []
+    },
+    {
+      "image": "6-Jan 27 2026 09_46am-XB4G.jpg",
+      "equipment": []
+    },
+    {
+      "image": "7-Jan 27 2026 09_46am-zAdU.jpg",
+      "equipment": []
+    },
+    {
+      "image": "8-Jan 27 2026 09_47am-pfWb.jpg",
+      "equipment": []
+    },
+    {
+      "image": "9-Jan 27 2026 09_47am-AXKB.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "water_heater",
+      "model_number": "82V40-2",
+      "serial_number": "RH 1006209557",
+      "manufacture_date": "10/2006"
+    }
+  ]
+}

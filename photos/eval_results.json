@@ -1,0 +1,260 @@
+{
+  "per_visit": [
+    {
+      "visit_id": "test_1",
+      "predicted_count": 1,
+      "ground_truth_count": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "field_accuracy": {
+        "equipment_type": 1.0,
+        "model_number": 1.0,
+        "serial_number": 1.0,
+        "manufacture_date": 1.0
+      },
+      "matches": [
+        {
+          "predicted": {
+            "equipment_type": "water_heater",
+            "model_number": "82V40-2",
+            "serial_number": "RH 1006209557",
+            "manufacture_date": "10/2006"
+          },
+          "ground_truth": {
+            "equipment_type": "water_heater",
+            "model_number": "82V40-2",
+            "serial_number": "RH 1006209557",
+            "manufacture_date": "10/2006"
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "test_2",
+      "predicted_count": 0,
+      "ground_truth_count": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": null,
+      "recall": null,
+      "field_accuracy": {
+        "equipment_type": null,
+        "model_number": null,
+        "serial_number": null,
+        "manufacture_date": null
+      },
+      "matches": []
+    },
+    {
+      "visit_id": "test_3",
+      "predicted_count": 4,
+      "ground_truth_count": 3,
+      "true_positives": 3,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "field_accuracy": {
+        "equipment_type": 1.0,
+        "model_number": 1.0,
+        "serial_number": 1.0,
+        "manufacture_date": 1.0
+      },
+      "matches": [
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "A5AHC004A1D30AA",
+            "serial_number": "25463TWL3V",
+            "manufacture_date": "11/12/2025"
+          },
+          "ground_truth": {
+            "equipment_type": "hvac",
+            "model_number": "A5AHC004A1D30AA",
+            "serial_number": "25463TWL3V",
+            "manufacture_date": "11/12/2025"
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        },
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "BAYHTR1517BRKAB",
+            "serial_number": "2530B1AGNX",
+            "manufacture_date": null
+          },
+          "ground_truth": {
+            "equipment_type": "hvac",
+            "model_number": "BAYHTR1517BRKAB",
+            "serial_number": "2530B1AGNX",
+            "manufacture_date": null
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        },
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "A5HP4036A1000AA",
+            "serial_number": "25325X1WFF",
+            "manufacture_date": "8/2025"
+          },
+          "ground_truth": {
+            "equipment_type": "hvac",
+            "model_number": "A5HP4036A1000AA",
+            "serial_number": "25325X1WFF",
+            "manufacture_date": "8/2025"
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        },
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "BAYHTR1517BRKAB",
+            "serial_number": "2530B1AQNX",
+            "manufacture_date": null
+          },
+          "ground_truth": null,
+          "field_correct": null
+        }
+      ]
+    },
+    {
+      "visit_id": "test_4",
+      "predicted_count": 4,
+      "ground_truth_count": 4,
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "field_accuracy": {
+        "equipment_type": 1.0,
+        "model_number": 1.0,
+        "serial_number": 1.0,
+        "manufacture_date": 1.0
+      },
+      "matches": [
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "4TTX6030J1000CA",
+            "serial_number": "22231H8H5F",
+            "manufacture_date": "6/2022"
+          },
+          "ground_truth": {
+            "equipment_type": "hvac",
+            "model_number": "4TTX6030J1000CA",
+            "serial_number": "22231H8H5F",
+            "manufacture_date": "6/2022"
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        },
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "D157247P16",
+            "serial_number": "210905308676",
+            "manufacture_date": "22112021"
+          },
+          "ground_truth": {
+            "equipment_type": "hvac",
+            "model_number": "D157247P16",
+            "serial_number": "210905308676",
+            "manufacture_date": "22112021"
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        },
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "4TXCB004DS3HCBV",
+            "serial_number": "22192A69CV",
+            "manufacture_date": "5/2022"
+          },
+          "ground_truth": {
+            "equipment_type": "hvac",
+            "model_number": "4TXCB004DS3HCBV",
+            "serial_number": "22192A69CV",
+            "manufacture_date": "5/2022"
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        },
+        {
+          "predicted": {
+            "equipment_type": "hvac",
+            "model_number": "S8X2B080M4PSCAB",
+            "serial_number": "222035JRHG",
+            "manufacture_date": null
+          },
+          "ground_truth": {
+            "equipment_type": "hvac",
+            "model_number": "S8X2B080M4PSCAB",
+            "serial_number": "222035JRHG",
+            "manufacture_date": null
+          },
+          "field_correct": {
+            "equipment_type": true,
+            "model_number": true,
+            "serial_number": true,
+            "manufacture_date": true
+          }
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "total_visits": 4,
+    "visits_with_errors": 0,
+    "total_true_positives": 8,
+    "total_false_positives": 1,
+    "total_false_negatives": 0,
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "field_accuracy": {
+      "equipment_type": 1.0,
+      "model_number": 1.0,
+      "serial_number": 1.0,
+      "manufacture_date": 1.0
+    }
+  }
+}
