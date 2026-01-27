@@ -197,7 +197,7 @@ def render_visit(visit_id, eval_results):
 
     # Per-image results
     st.subheader("Per-Image Results")
-    st.caption("Note: The AI is instructed to only extract equipment data when there's a clearly visible data plate (i.e., a \"money shot\"). Images without legible plates are intentionally skipped.")
+    st.info("The AI is instructed to only extract equipment data when there's a clearly visible data plate (i.e., a \"money shot\"). Images without legible plates are intentionally skipped.")
 
     if output and output.get("per_image"):
         for img_data in output["per_image"]:
