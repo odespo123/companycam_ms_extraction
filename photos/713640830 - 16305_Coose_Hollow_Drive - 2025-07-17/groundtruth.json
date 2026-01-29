@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1442BJ1NA",
+      "serial_number": "W281640010",
+      "manufacture_date": "07/2016"
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "RH1P4821STANJA",
+      "serial_number": "W091607918",
+      "manufacture_date": "03/2016"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:26:12.734591",
+    "source_images": [
+      {
+        "image": "15_164802_2439782077.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "RA1442BJ1NA",
+            "serial_number": "W281640010",
+            "manufacture_date": "07/2016"
+          }
+        ]
+      },
+      {
+        "image": "27_154302_2439545045.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "RH1P4821STANJA",
+            "serial_number": "W091607918",
+            "manufacture_date": "03/2016"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

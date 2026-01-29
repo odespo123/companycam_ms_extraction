@@ -1,0 +1,56 @@
+{
+  "visit_id": "713489200 - 3802_North_Sassafras_Hill_Road - 2025-07-17",
+  "per_image": [
+    {
+      "image": "01_140517_2439081856.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_135744_2439034907.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_135035_2439017309.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_134614_2438977279.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_125942_2438718569.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_125706_2438705907.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_125644_2438702224.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_125620_2438699535.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_125545_2438696199.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "FTX24NMVJU",
+          "serial_number": "G012916",
+          "manufacture_date": "2016.6"
+        }
+      ]
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "FTX24NMVJU",
+      "serial_number": "G012916",
+      "manufacture_date": "2016.6"
+    }
+  ]
+}

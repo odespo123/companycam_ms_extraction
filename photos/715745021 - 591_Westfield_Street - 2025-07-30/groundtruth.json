@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "RCF3617STAMCA",
+      "serial_number": "W062019657",
+      "manufacture_date": "02/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1436AJ1NA",
+      "serial_number": "W082006609",
+      "manufacture_date": "02/2020"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:07:22.143534",
+    "source_images": [
+      {
+        "image": "07_183800_2473637202.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "RCF3617STAMCA",
+            "serial_number": "W062019657",
+            "manufacture_date": "02/2020"
+          }
+        ]
+      },
+      {
+        "image": "11_183511_2473632416.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "RA1436AJ1NA",
+            "serial_number": "W082006609",
+            "manufacture_date": "02/2020"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

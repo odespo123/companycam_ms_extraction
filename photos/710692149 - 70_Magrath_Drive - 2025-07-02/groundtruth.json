@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "FEM4X3600BL",
+      "serial_number": "F212037019",
+      "manufacture_date": "MAY 2021"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:07:31.361148",
+    "source_images": [
+      {
+        "image": "06_151044_2402906262.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "FEM4X3600BL",
+            "serial_number": "F212037019",
+            "manufacture_date": "MAY 2021"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

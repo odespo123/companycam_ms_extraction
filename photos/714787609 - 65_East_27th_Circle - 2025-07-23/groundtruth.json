@@ -1,0 +1,83 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "CB29M-31-1P",
+      "serial_number": "5800G 02523",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "10HPB24-10P",
+      "serial_number": "5800G 50172",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "XC17-036-230-03",
+      "serial_number": "5811B07520",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "C33-38B-2F-6",
+      "serial_number": "6010H25739",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:27:33.631015",
+    "source_images": [
+      {
+        "image": "11_185026_2455158634.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "CB29M-31-1P",
+            "serial_number": "5800G 02523",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "50_175105_2455047571.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "10HPB24-10P",
+            "serial_number": "5800G 50172",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "38_181051_2455088987.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "XC17-036-230-03",
+            "serial_number": "5811B07520",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "26_184128_2455143695.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "C33-38B-2F-6",
+            "serial_number": "6010H25739",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

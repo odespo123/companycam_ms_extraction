@@ -1,0 +1,96 @@
+{
+  "visit_id": "713345571 - 4291_Brighten_Avenue - 2025-07-16",
+  "per_image": [
+    {
+      "image": "01_130731_2435224037.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_125438_2435451747.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_125431_2435451697.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_124811_2435114562.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "561CJX036000AEAA",
+          "serial_number": "3098E11988",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "05_123638_2435050642.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_123623_2435049505.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_123250_2435027088.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_113927_2434715787.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_113922_2434715241.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CK3BXA036000AAAA",
+          "serial_number": "3197V51383",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "10_112226_2434615661.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_112139_2434610809.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_111843_2434593944.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "561CJX036000AEAA",
+          "serial_number": "3098E11988",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "13_111830_2434592048.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_111525_2434573088.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "561CJX036000AEAA",
+      "serial_number": "3098E11988",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CK3BXA036000AAAA",
+      "serial_number": "3197V51383",
+      "manufacture_date": null
+    }
+  ]
+}

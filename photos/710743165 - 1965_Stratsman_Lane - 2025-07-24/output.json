@@ -1,0 +1,218 @@
+{
+  "visit_id": "710743165 - 1965_Stratsman_Lane - 2025-07-24",
+  "per_image": [
+    {
+      "image": "01_155314_2458217370.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_155205_2458213311.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_154411_2458181722.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_154319_2458178333.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_152715_2458112919.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_152412_2458098771.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_150617_2458016968.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_150616_2458016842.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_150609_2458016350.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_150340_2458004604.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_150335_2458004297.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_150333_2458004102.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_150245_2458000348.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_145911_2457984032.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_145905_2457983469.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_145903_2457983341.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_145901_2457983214.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_145858_2457983011.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_145856_2457982853.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_145855_2457982718.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_144913_2457936219.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_142310_2457806308.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_142137_2457799027.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_142124_2457797545.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_141858_2457784418.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_141855_2457784222.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_141249_2457752559.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_141248_2457752384.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_141122_2457745162.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_140832_2457729693.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_140750_2457726046.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_140746_2457725552.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_140613_2457717731.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_140414_2457707386.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35_140052_2457691346.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "DHP24CSB21S",
+          "serial_number": null,
+          "manufacture_date": "2019.07"
+        }
+      ]
+    },
+    {
+      "image": "36_140013_2457688397.jpg",
+      "equipment": []
+    },
+    {
+      "image": "37_140008_2457687869.jpg",
+      "equipment": []
+    },
+    {
+      "image": "38_135959_2457687103.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4A7A6030J1000AB",
+          "serial_number": "20411U4X5F",
+          "manufacture_date": "10/2020"
+        }
+      ]
+    },
+    {
+      "image": "39_135934_2457685005.jpg",
+      "equipment": []
+    },
+    {
+      "image": "40_135915_2457683567.jpg",
+      "equipment": []
+    },
+    {
+      "image": "41_135910_2457683115.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4A7A6061J1000BA",
+          "serial_number": "204248MB2F",
+          "manufacture_date": "10/2020"
+        }
+      ]
+    },
+    {
+      "image": "42_135905_2457682777.jpg",
+      "equipment": []
+    },
+    {
+      "image": "43_135849_2457681501.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "DHP24CSB21S",
+      "serial_number": null,
+      "manufacture_date": "2019.07"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4A7A6030J1000AB",
+      "serial_number": "20411U4X5F",
+      "manufacture_date": "10/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4A7A6061J1000BA",
+      "serial_number": "204248MB2F",
+      "manufacture_date": "10/2020"
+    }
+  ]
+}

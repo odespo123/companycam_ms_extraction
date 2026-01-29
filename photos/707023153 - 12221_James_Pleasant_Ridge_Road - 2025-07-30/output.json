@@ -1,0 +1,145 @@
+{
+  "visit_id": "707023153 - 12221_James_Pleasant_Ridge_Road - 2025-07-30",
+  "per_image": [
+    {
+      "image": "01_123458_2472092487.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_123454_2472092162.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_123018_2472066576.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_121453_2471972420.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_121201_2471954764.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_121156_2471954243.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_120944_2471941348.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_120744_2471939726.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_120419_2471909738.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_120306_2471903075.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "NDV038K101CTR0BA",
+          "serial_number": null,
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "11_120130_2471894600.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_120116_2471893060.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_120058_2471891604.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_115846_2471880980.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_115745_2471875363.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_115727_2471874405.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_115723_2471874115.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_115722_2471877418.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_115714_2471877088.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_115629_2471867559.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_115515_2471860443.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_115328_2471851015.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_115229_2471845357.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_114953_2471831131.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "NDV038K101CTR0BA",
+          "serial_number": "231000229",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "25_114931_2471829201.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_114929_2471828717.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_114920_2471827846.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_114801_2471820711.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "NDV038K101CTR0BA",
+      "serial_number": null,
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "NDV038K101CTR0BA",
+      "serial_number": "231000229",
+      "manufacture_date": null
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "visit_id": "706360198 - 5401_Southwest_Cherry_Creek_Road - 2025-07-18",
+  "per_image": [
+    {
+      "image": "01_142613_2442453557.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_140300_2442344934.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_135637_2442316444.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_135625_2442314744.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_135624_2442314644.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_134228_2442314268.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_134148_2442247485.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_130741_2442077806.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_130145_2442046296.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_130135_2442045144.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_125736_2442041600.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_125733_2442027242.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_125619_2442023105.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_125544_2442022132.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_125527_2442021216.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_125055_2441996468.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_125049_2441995835.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_125047_2441994899.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_125040_2441994115.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_125027_2441993398.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "TEM4A0B36S31SBA",
+          "serial_number": "220252542V",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "21_125020_2441992956.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_124937_2441992024.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_124913_2441986572.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_124837_2441983475.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_124834_2441983195.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_124814_2441981620.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_124723_2441981222.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_124646_2441977539.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_124629_2441973551.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_124608_2441972411.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_124531_2441969108.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "TEM4A0B36S31SBA",
+          "serial_number": "2002625K3V",
+          "manufacture_date": "1/2020"
+        }
+      ]
+    },
+    {
+      "image": "32_124506_2441967147.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_123937_2441940661.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_123342_2441913251.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35_123253_2441908598.jpg",
+      "equipment": []
+    },
+    {
+      "image": "36_123249_2441908279.jpg",
+      "equipment": []
+    },
+    {
+      "image": "37_123046_2441898668.jpg",
+      "equipment": []
+    },
+    {
+      "image": "38_123028_2441897186.jpg",
+      "equipment": []
+    },
+    {
+      "image": "39_123004_2441895226.jpg",
+      "equipment": []
+    },
+    {
+      "image": "40_122939_2441893043.jpg",
+      "equipment": []
+    },
+    {
+      "image": "41_122750_2441884102.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TWR4030G1000AB",
+          "serial_number": "19413M5H5F",
+          "manufacture_date": "10/2019"
+        }
+      ]
+    },
+    {
+      "image": "42_122744_2441883738.jpg",
+      "equipment": []
+    },
+    {
+      "image": "43_121037_2441795690.jpg",
+      "equipment": []
+    },
+    {
+      "image": "44_121031_2441794419.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TEM4A0B36S31SBA",
+      "serial_number": "220252542V",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TEM4A0B36S31SBA",
+      "serial_number": "2002625K3V",
+      "manufacture_date": "1/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWR4030G1000AB",
+      "serial_number": "19413M5H5F",
+      "manufacture_date": "10/2019"
+    }
+  ]
+}

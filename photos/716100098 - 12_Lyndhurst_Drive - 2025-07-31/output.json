@@ -1,0 +1,121 @@
+{
+  "visit_id": "716100098 - 12_Lyndhurst_Drive - 2025-07-31",
+  "per_image": [
+    {
+      "image": "01_145759_2476383447.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_144814_2476337771.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_144804_2476336988.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_143921_2476297807.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_143854_2476295726.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_143539_2476293464.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_141043_2476152517.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_140450_2476120984.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_140220_2476107650.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "4TEE3C04A1000AA",
+          "serial_number": "9252KTA2V",
+          "manufacture_date": "6/2009"
+        }
+      ]
+    },
+    {
+      "image": "10_140037_2476097445.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_140029_2476096782.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_135659_2476079120.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_135059_2476048032.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_135025_2476045134.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_134711_2476028309.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TWZ0036A1000AB",
+          "serial_number": "92447DG1F",
+          "manufacture_date": "6/2009"
+        }
+      ]
+    },
+    {
+      "image": "16_134700_2476027373.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_134657_2476027126.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_134344_2476010994.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_134014_2475991870.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_133934_2475988482.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_133759_2475979975.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_121337_2476293402.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "4TEE3C04A1000AA",
+      "serial_number": "9252KTA2V",
+      "manufacture_date": "6/2009"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWZ0036A1000AB",
+      "serial_number": "92447DG1F",
+      "manufacture_date": "6/2009"
+    }
+  ]
+}

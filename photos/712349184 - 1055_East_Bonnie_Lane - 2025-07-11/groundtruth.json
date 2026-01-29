@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "water_heater",
+      "model_number": "82MV52-2",
+      "serial_number": "RH 1108226372",
+      "manufacture_date": "11/2008"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:29:02.387170",
+    "source_images": [
+      {
+        "image": "14_161407_2424493453.jpg",
+        "type": "water heater",
+        "extractions": [
+          {
+            "equipment_type": "water_heater",
+            "model_number": "82MV52-2",
+            "serial_number": "RH 1108226372",
+            "manufacture_date": "11/2008"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

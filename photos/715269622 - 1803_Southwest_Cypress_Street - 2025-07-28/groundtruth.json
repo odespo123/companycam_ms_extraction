@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "UANL-043JAZ",
+      "serial_number": "7841W361200245",
+      "manufacture_date": "08/2012"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "V48H210D756",
+      "serial_number": "7113C11234",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:28:36.500789",
+    "source_images": [
+      {
+        "image": "12_113002_2464722589.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "UANL-043JAZ",
+            "serial_number": "7841W361200245",
+            "manufacture_date": "08/2012"
+          }
+        ]
+      },
+      {
+        "image": "15_112841_2464667346.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "V48H210D756",
+            "serial_number": "7113C11234",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

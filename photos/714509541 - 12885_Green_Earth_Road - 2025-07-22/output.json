@@ -1,0 +1,202 @@
+{
+  "visit_id": "714509541 - 12885_Green_Earth_Road - 2025-07-22",
+  "per_image": [
+    {
+      "image": "01_185104_2451432975.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_184849_2451429592.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_184742_2451427945.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_184701_2451426940.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_184619_2451426017.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_184617_2451425969.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_184616_2451425933.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_184614_2451425889.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_184552_2451425349.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "NXA636GKA100",
+          "serial_number": "E180912548",
+          "manufacture_date": "FEB 2018"
+        }
+      ]
+    },
+    {
+      "image": "10_184551_2451425303.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "NXA636GKA100",
+          "serial_number": "E180912548",
+          "manufacture_date": "FEB 2018"
+        }
+      ]
+    },
+    {
+      "image": "11_184515_2451424824.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_184424_2451422969.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_184410_2451422624.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_184405_2451422539.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "CY-FHG1625-3",
+          "serial_number": null,
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "15_184401_2451422368.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "N50T61-403",
+          "serial_number": "1410T452021",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "16_184357_2451422173.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_184356_2451422064.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_184354_2451421978.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "N40T61-403",
+          "serial_number": "1410T433227",
+          "manufacture_date": "07/22/14"
+        }
+      ]
+    },
+    {
+      "image": "19_184342_2451421833.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_184341_2451421758.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_184333_2451421629.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_184331_2451421465.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "N50T61-403",
+          "serial_number": "1410T452021",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "23_184327_2451421373.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_184324_2451421281.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "END4X36L17A1",
+          "serial_number": "X180722445",
+          "manufacture_date": "Feb-2018"
+        }
+      ]
+    },
+    {
+      "image": "25_184318_2451421200.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_184315_2451421016.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_184314_2451420872.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_184312_2451420774.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_184305_2451420570.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "NXA636GKA100",
+      "serial_number": "E180912548",
+      "manufacture_date": "FEB 2018"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "CY-FHG1625-3",
+      "serial_number": null,
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "N50T61-403",
+      "serial_number": "1410T452021",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "N40T61-403",
+      "serial_number": "1410T433227",
+      "manufacture_date": "07/22/14"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "END4X36L17A1",
+      "serial_number": "X180722445",
+      "manufacture_date": "Feb-2018"
+    }
+  ]
+}

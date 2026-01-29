@@ -1,0 +1,101 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "S8B1B060M4PSCC",
+      "serial_number": "25093PHPJG",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "5TTR4030A1000A",
+      "serial_number": "24455MDH1F",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RAND-030JBZ",
+      "serial_number": "7259 M1406 06936",
+      "manufacture_date": "04/2006"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "RE34236C175B2005AP",
+      "serial_number": "7106J43155",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "UGPN-07EAMER",
+      "serial_number": "FU5D302F390609336",
+      "manufacture_date": "09/2006"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:24:55.936980",
+    "source_images": [
+      {
+        "image": "02_173333_2432825236.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "S8B1B060M4PSCC",
+            "serial_number": "25093PHPJG",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "03_173331_2432825162.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "5TTR4030A1000A",
+            "serial_number": "24455MDH1F",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "11_154131_2432443656.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "RAND-030JBZ",
+            "serial_number": "7259 M1406 06936",
+            "manufacture_date": "04/2006"
+          }
+        ]
+      },
+      {
+        "image": "20_154039_2432439141.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "RE34236C175B2005AP",
+            "serial_number": "7106J43155",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "47_151207_2432306226.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "UGPN-07EAMER",
+            "serial_number": "FU5D302F390609336",
+            "manufacture_date": "09/2006"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

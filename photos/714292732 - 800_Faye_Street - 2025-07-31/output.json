@@ -1,0 +1,326 @@
+{
+  "visit_id": "714292732 - 800_Faye_Street - 2025-07-31",
+  "per_image": [
+    {
+      "image": "01_104608_2475015095.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_104606_2475014827.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_104554_2475013748.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_092754_2474573290.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_092751_2474572867.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_092729_2474570661.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_092715_2474569728.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_092710_2474569348.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_092708_2474568742.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_092701_2474568121.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_092622_2474564799.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "TM8E080B12MP11A",
+          "serial_number": "W2E3626928",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "12_092611_2474563627.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_092432_2474554447.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_092210_2474542583.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_092156_2474541459.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_092147_2474540671.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_092137_2474539799.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CAPMP3017ALA",
+          "serial_number": "S190207436",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "18_092127_2474539207.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_091854_2474524819.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_091537_2474506842.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_091242_2474491839.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "XAFB30CXXN1A",
+          "serial_number": "W2N2284631",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "22_090111_2474434320.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_090107_2474433051.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_090102_2474432510.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_090101_2474432378.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_084249_2474351836.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_084016_2474340599.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_084011_2474340297.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_084006_2474339867.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_084001_2474339506.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_083341_2474311886.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_083222_2474306500.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_083221_2474306280.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_083157_2474304815.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": null,
+          "serial_number": "1609F01193",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "35_083024_2474298719.jpg",
+      "equipment": []
+    },
+    {
+      "image": "36_083022_2474298446.jpg",
+      "equipment": []
+    },
+    {
+      "image": "37_082947_2474296227.jpg",
+      "equipment": []
+    },
+    {
+      "image": "38_082945_2474295925.jpg",
+      "equipment": []
+    },
+    {
+      "image": "39_082416_2474273900.jpg",
+      "equipment": []
+    },
+    {
+      "image": "40_082343_2474289415.jpg",
+      "equipment": []
+    },
+    {
+      "image": "41_082239_2474267488.jpg",
+      "equipment": []
+    },
+    {
+      "image": "42_082223_2474266489.jpg",
+      "equipment": []
+    },
+    {
+      "image": "43_081935_2474255578.jpg",
+      "equipment": []
+    },
+    {
+      "image": "44_081931_2474255276.jpg",
+      "equipment": []
+    },
+    {
+      "image": "45_081916_2474254188.jpg",
+      "equipment": []
+    },
+    {
+      "image": "46_081910_2474253915.jpg",
+      "equipment": []
+    },
+    {
+      "image": "47_081907_2474253756.jpg",
+      "equipment": []
+    },
+    {
+      "image": "48_081904_2474253555.jpg",
+      "equipment": []
+    },
+    {
+      "image": "49_081903_2474253398.jpg",
+      "equipment": []
+    },
+    {
+      "image": "50_081613_2474242640.jpg",
+      "equipment": []
+    },
+    {
+      "image": "51_081609_2474242373.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4SCU13L130P-2",
+          "serial_number": "1059G01193",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "52_081600_2474241852.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4SCU13L130P-2",
+          "serial_number": "1059G01193",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "53_081552_2474241414.jpg",
+      "equipment": []
+    },
+    {
+      "image": "54_081151_2474227044.jpg",
+      "equipment": []
+    },
+    {
+      "image": "55_081149_2474226359.jpg",
+      "equipment": []
+    },
+    {
+      "image": "56_081146_2474226099.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "XAFB30CNXA",
+          "serial_number": "W2N2784831"
+        }
+      ]
+    },
+    {
+      "image": "57_081140_2474225802.jpg",
+      "equipment": []
+    },
+    {
+      "image": "58_081035_2474222257.jpg",
+      "equipment": []
+    },
+    {
+      "image": "59_081022_2474221537.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "TM8E080B12MP11A",
+      "serial_number": "W2E3626928",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CAPMP3017ALA",
+      "serial_number": "S190207436",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "XAFB30CXXN1A",
+      "serial_number": "W2N2284631",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": null,
+      "serial_number": "1609F01193",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4SCU13L130P-2",
+      "serial_number": "1059G01193",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "XAFB30CNXA",
+      "serial_number": "W2N2784831"
+    }
+  ]
+}

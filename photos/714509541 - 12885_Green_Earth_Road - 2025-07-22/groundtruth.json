@@ -1,0 +1,65 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "NXA636GKA100",
+      "serial_number": "E180912548",
+      "manufacture_date": "FEB 2018"
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "N50T61-403",
+      "serial_number": "1410T452021",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "END4X36L17A1",
+      "serial_number": "X180722445",
+      "manufacture_date": "Feb-2018"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:04:49.254563",
+    "source_images": [
+      {
+        "image": "09_184552_2451425349.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "NXA636GKA100",
+            "serial_number": "E180912548",
+            "manufacture_date": "FEB 2018"
+          }
+        ]
+      },
+      {
+        "image": "15_184401_2451422368.jpg",
+        "type": "water heater",
+        "extractions": [
+          {
+            "equipment_type": "water_heater",
+            "model_number": "N50T61-403",
+            "serial_number": "1410T452021",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "24_184324_2451421281.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "END4X36L17A1",
+            "serial_number": "X180722445",
+            "manufacture_date": "Feb-2018"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

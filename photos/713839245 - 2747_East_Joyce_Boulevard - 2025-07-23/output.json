@@ -1,0 +1,198 @@
+{
+  "visit_id": "713839245 - 2747_East_Joyce_Boulevard - 2025-07-23",
+  "per_image": [
+    {
+      "image": "01_164458_2454842387.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_164234_2454833348.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_164155_2454830967.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_163749_2454817626.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TWR4030G1000AB",
+          "serial_number": "20282RXL4F",
+          "manufacture_date": "7/2020"
+        }
+      ]
+    },
+    {
+      "image": "05_163738_2454816073.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_163737_2454815896.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_152237_2454436766.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_151906_2454419754.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_151852_2454418697.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_151828_2454416625.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_151820_2454416190.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_151743_2454413416.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_151737_2454412994.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_151711_2454411053.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "113ANA030000BEAA",
+          "serial_number": "1513E04569",
+          "manufacture_date": "APR 2013"
+        }
+      ]
+    },
+    {
+      "image": "15_151659_2454410344.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_150909_2454373536.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_150905_2454373187.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_150902_2454372543.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_150859_2454372144.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_150858_2454371747.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_145144_2454382184.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_145142_2454381845.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_145141_2454378894.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_145140_2454378158.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_144932_2454378012.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_144931_2454377883.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_144929_2454377748.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_144928_2454377465.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_144917_2454376979.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_144914_2454377217.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_144912_2454376850.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_125515_2453641794.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_092744_2452394631.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_092735_2452393397.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35_092729_2452392190.jpg",
+      "equipment": []
+    },
+    {
+      "image": "36_092726_2452391919.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "E6N-40H 110",
+          "serial_number": "2445141362006",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "37_092714_2452391031.jpg",
+      "equipment": []
+    },
+    {
+      "image": "38_092713_2452390833.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWR4030G1000AB",
+      "serial_number": "20282RXL4F",
+      "manufacture_date": "7/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "113ANA030000BEAA",
+      "serial_number": "1513E04569",
+      "manufacture_date": "APR 2013"
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "E6N-40H 110",
+      "serial_number": "2445141362006",
+      "manufacture_date": null
+    }
+  ]
+}

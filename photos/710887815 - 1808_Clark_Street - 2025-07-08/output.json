@@ -1,0 +1,121 @@
+{
+  "visit_id": "710887815 - 1808_Clark_Street - 2025-07-08",
+  "per_image": [
+    {
+      "image": "01_123043_2412872060.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_122625_2412847523.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_122547_2412844413.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_122447_2412838444.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "ML180UH070P36A-55",
+          "serial_number": "1719D42784",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "05_122444_2412838274.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_122246_2412827030.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_122223_2412825018.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_122222_2412824813.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_122039_2412815207.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_121238_2412764802.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_121054_2412753873.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_121038_2412752755.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_120927_2412750007.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_120920_2412747545.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_120919_2412746253.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_120834_2412744553.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_120831_2412741411.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_120809_2412737494.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_120809_2412737658.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_120807_2412737242.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_120545_2412724178.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "14ACXS030-230A19",
+          "serial_number": "1919D38313",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "22_120526_2412723638.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "ML180UH070P36A-55",
+      "serial_number": "1719D42784",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "14ACXS030-230A19",
+      "serial_number": "1919D38313",
+      "manufacture_date": null
+    }
+  ]
+}

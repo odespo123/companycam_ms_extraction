@@ -1,0 +1,76 @@
+{
+  "visit_id": "713631500 - 461_Dallas_Lane - 2025-07-17",
+  "per_image": [
+    {
+      "image": "01_185642_2440069771.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_185638_2440069677.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_185636_2440069629.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_184422_2440053115.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_184411_2440052725.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_184407_2440052519.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_184406_2440052384.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCB004DS3HCCV",
+          "serial_number": "23341RXJCV",
+          "manufacture_date": "8/2023"
+        }
+      ]
+    },
+    {
+      "image": "08_184403_2440052142.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_184358_2440051715.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_184355_2440051573.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_182739_2440024885.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_182737_2440024809.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_182710_2440024209.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_182708_2440024094.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB004DS3HCCV",
+      "serial_number": "23341RXJCV",
+      "manufacture_date": "8/2023"
+    }
+  ]
+}

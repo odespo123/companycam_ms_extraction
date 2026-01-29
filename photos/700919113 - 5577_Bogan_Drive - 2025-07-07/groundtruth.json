@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "M36E331",
+      "serial_number": "7120F44297",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "TC4B3622SA",
+      "serial_number": "W2E0805126",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:25:11.908899",
+    "source_images": [
+      {
+        "image": "17_150840_2410280449.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "M36E331",
+            "serial_number": "7120F44297",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "41_144924_2410185840.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "TC4B3622SA",
+            "serial_number": "W2E0805126",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

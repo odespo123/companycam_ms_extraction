@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR6042J1000AB",
+      "serial_number": "20324CCJ1F",
+      "manufacture_date": "8/2020"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB006DS3HCAA",
+      "serial_number": "21115JJP5G",
+      "manufacture_date": "3/2021"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:28:47.155650",
+    "source_images": [
+      {
+        "image": "07_124751_2446335193.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR6042J1000AB",
+            "serial_number": "20324CCJ1F",
+            "manufacture_date": "8/2020"
+          }
+        ]
+      },
+      {
+        "image": "10_124331_2446304994.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCB006DS3HCAA",
+            "serial_number": "21115JP5G",
+            "manufacture_date": "3/2021"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "visit_id": "710704550 - 7920_Buona_Sera_Street - 2025-07-03",
+  "per_image": [
+    {
+      "image": "01_130332_2405559706.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_130329_2405534996.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": null,
+          "serial_number": "2506148391580",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "03_130323_2405533755.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "GS6 50 YBN 400",
+          "serial_number": "2210123568600",
+          "manufacture_date": "3/20/22"
+        }
+      ]
+    },
+    {
+      "image": "04_130322_2405531841.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_130240_2405528315.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": null,
+          "serial_number": "2306148391580",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "06_130237_2405528062.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_130234_2405527759.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_130233_2405526635.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_103652_2404802106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_103649_2404801809.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_103645_2404801544.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_103644_2404801405.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_103639_2404801129.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "G61-50T40R 400",
+          "serial_number": "2305142331570",
+          "manufacture_date": "02/09/2023"
+        }
+      ]
+    },
+    {
+      "image": "14_103638_2404800960.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "GS1-50T40R 400",
+          "serial_number": "2306142391570",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "15_103637_2404800836.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "G61-50T40R 400",
+          "serial_number": "2306142391670",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "16_103632_2404800405.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_103631_2404800255.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "water_heater",
+      "model_number": null,
+      "serial_number": "2506148391580",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "GS6 50 YBN 400",
+      "serial_number": "2210123568600",
+      "manufacture_date": "3/20/22"
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": null,
+      "serial_number": "2306148391580",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "G61-50T40R 400",
+      "serial_number": "2305142331570",
+      "manufacture_date": "02/09/2023"
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "GS1-50T40R 400",
+      "serial_number": "2306142391570",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "G61-50T40R 400",
+      "serial_number": "2306142391670",
+      "manufacture_date": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "visit_id": "714264199 - 2177_Gas_Light_Cove - 2025-07-21",
+  "per_image": [
+    {
+      "image": "01_131602_2446810534.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_131551_2446810384.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_131542_2446628367.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_125010_2446338959.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_124941_2446338411.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_124858_2446337637.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_124751_2446335193.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTR6042J1000AB",
+          "serial_number": "20324CCJ1F",
+          "manufacture_date": "8/2020"
+        }
+      ]
+    },
+    {
+      "image": "08_124743_2446474529.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_124711_2446323931.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_124331_2446304994.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCB006DS3HCAA",
+          "serial_number": "21115JP5G",
+          "manufacture_date": "3/2021"
+        }
+      ]
+    },
+    {
+      "image": "11_124324_2446303556.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR6042J1000AB",
+      "serial_number": "20324CCJ1F",
+      "manufacture_date": "8/2020"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB006DS3HCAA",
+      "serial_number": "21115JP5G",
+      "manufacture_date": "3/2021"
+    }
+  ]
+}

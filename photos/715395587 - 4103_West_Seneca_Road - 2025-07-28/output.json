@@ -1,0 +1,44 @@
+{
+  "visit_id": "715395587 - 4103_West_Seneca_Road - 2025-07-28",
+  "per_image": [
+    {
+      "image": "01_171326_2466245387.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_171259_2466244004.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "TUD2C100A9V5VBB",
+          "serial_number": "20103N10GG",
+          "manufacture_date": "3/2020"
+        }
+      ]
+    },
+    {
+      "image": "03_164249_2466157473.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_164247_2466157379.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_163221_2466125465.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_163210_2466125232.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "TUD2C100A9V5VBB",
+      "serial_number": "20103N10GG",
+      "manufacture_date": "3/2020"
+    }
+  ]
+}

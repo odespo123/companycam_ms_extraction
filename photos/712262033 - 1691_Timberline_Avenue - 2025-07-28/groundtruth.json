@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TEM4A0B30S31SAA",
+      "serial_number": "1710125M3V",
+      "manufacture_date": "3/2017"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWR4030G1000AA",
+      "serial_number": "17025ULN2F",
+      "manufacture_date": "1/2017"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:29:17.458400",
+    "source_images": [
+      {
+        "image": "22_090837_2463913539.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "TEM4A0B30S31SAA",
+            "serial_number": "1710125M3V",
+            "manufacture_date": "3/2017"
+          }
+        ]
+      },
+      {
+        "image": "40_084548_2463812151.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TWR4030G1000AA",
+            "serial_number": "17025ULN2F",
+            "manufacture_date": "1/2017"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

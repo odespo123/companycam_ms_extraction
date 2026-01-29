@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "ML14XP1-048-230A01",
+      "serial_number": "1919A55232",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "CBA25UH-048-230-01",
+      "serial_number": "1519C19160",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:30:18.390511",
+    "source_images": [
+      {
+        "image": "03_174355_2462762545.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "ML14XP1-048-230A01",
+            "serial_number": "1919A55232",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "09_171315_2462735415.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "CBA25UH-048-230-01",
+            "serial_number": "1519C19160",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

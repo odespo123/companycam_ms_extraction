@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "14ACX-060-230-16",
+      "serial_number": "1918L41419",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:07:50.447867",
+    "source_images": [
+      {
+        "image": "20_164657_2414129790.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "14ACX-060-230-16",
+            "serial_number": "1918L41419",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

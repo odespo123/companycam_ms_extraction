@@ -1,0 +1,84 @@
+{
+  "visit_id": "714966922 - 3401_East_Mission_Boulevard - 2025-07-25",
+  "per_image": [
+    {
+      "image": "01_153535_2461421790.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_153059_2461406349.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_153054_2461405349.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_153048_2461405114.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TYK 612A10N0AA",
+          "serial_number": "1903233224",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "05_153047_2461404998.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_152322_2461376608.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_152011_2461365354.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_151956_2461364014.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_151111_2461328142.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_150551_2461295923.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_150219_2461278323.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_150212_2461277984.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_150024_2461273009.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_145621_2461253689.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_145548_2461251442.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_145539_2461250804.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TYK 612A10N0AA",
+      "serial_number": "1903233224",
+      "manufacture_date": null
+    }
+  ]
+}

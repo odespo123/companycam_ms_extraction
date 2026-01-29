@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTV0048A1000CC",
+      "serial_number": "19192H421F",
+      "manufacture_date": "5/2019"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "4TXCC009DS3HCAA",
+      "serial_number": "19173KM9CG",
+      "manufacture_date": "4/2019"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:35:34.560075",
+    "source_images": [
+      {
+        "image": "21_103618_2404798954.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTV0048A1000CC",
+            "serial_number": "19192H421F",
+            "manufacture_date": "5/2019"
+          }
+        ]
+      },
+      {
+        "image": "35_102446_2404736922.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "4TXCC009DS3HCAA",
+            "serial_number": "19173KM9CG",
+            "manufacture_date": "4/2019"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWL9048A1000AC",
+      "serial_number": "223845MPCF",
+      "manufacture_date": "9/2022"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:23:45.387311",
+    "source_images": [
+      {
+        "image": "29_134224_2465376918.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TWL9048A1000AC",
+            "serial_number": "223845MPCF",
+            "manufacture_date": "9/2022"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "visit_id": "711389011 - 3501_Southwest_Brittany_Road - 2025-07-08",
+  "per_image": [
+    {
+      "image": "01_171752_2414223956.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_171649_2414221062.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_171525_2414216678.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_171506_2414216339.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "ML195UH110XP60C-58",
+          "serial_number": "1718L48858",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "05_171503_2414215733.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_171503_2414216014.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_171502_2414215564.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_171347_2414211736.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_171316_2414210402.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_171212_2414208539.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_171210_2414207558.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_171209_2414207386.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_165838_2414166977.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_165837_2414166903.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_165315_2414150580.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_165304_2414150430.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_165233_2414148885.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_164949_2414139106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_164658_2414129837.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "14ACX-060-230-16",
+          "serial_number": "1918L41419",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "20_164657_2414129790.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "14ACX-060-230-16",
+          "serial_number": "1918L41419",
+          "manufacture_date": null
+        }
+      ]
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "ML195UH110XP60C-58",
+      "serial_number": "1718L48858",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "14ACX-060-230-16",
+      "serial_number": "1918L41419",
+      "manufacture_date": null
+    }
+  ]
+}

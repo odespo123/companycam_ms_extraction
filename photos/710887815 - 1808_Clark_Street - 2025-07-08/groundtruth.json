@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "ML180UH070P36A-55",
+      "serial_number": "1719D42784",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "14ACXS030-230A19",
+      "serial_number": "1919D38313",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:31:27.152840",
+    "source_images": [
+      {
+        "image": "04_122447_2412838444.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "ML180UH070P36A-55",
+            "serial_number": "1719D42784",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "21_120545_2412724178.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "14ACXS030-230A19",
+            "serial_number": "1919D38313",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

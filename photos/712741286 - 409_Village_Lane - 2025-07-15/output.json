@@ -1,0 +1,78 @@
+{
+  "visit_id": "712741286 - 409_Village_Lane - 2025-07-15",
+  "per_image": [
+    {
+      "image": "01_091356_2430228271.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_090946_2430205982.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_090942_2430205553.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_090937_2430205058.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_090722_2430193995.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_085704_2430143534.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_085627_2430140151.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "A4AC3024A1000CA",
+          "serial_number": "22051M4SBF"
+        }
+      ]
+    },
+    {
+      "image": "08_085440_2430131624.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_085400_2430128472.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_085355_2430128111.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_085104_2430114661.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_085059_2430114378.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_085022_2430111875.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_085020_2430111428.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_084351_2430081943.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "A4AC3024A1000CA",
+      "serial_number": "22051M4SBF"
+    }
+  ]
+}

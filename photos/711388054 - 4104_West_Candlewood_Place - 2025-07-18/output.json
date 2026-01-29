@@ -1,0 +1,186 @@
+{
+  "visit_id": "711388054 - 4104_West_Candlewood_Place - 2025-07-18",
+  "per_image": [
+    {
+      "image": "01_115944_2441741543.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_115933_2441740907.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_115853_2441740645.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_114052_2441728982.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_113629_2441728710.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_113230_2441608903.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_112759_2441608242.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_112754_2441607733.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_112059_2441607316.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_112058_2441606983.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_112057_2441606410.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_111943_2441606127.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_111938_2441605771.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_111909_2441605486.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_111756_2441600041.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_111738_2441604740.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_111726_2441603875.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTR4030N1000AA",
+          "serial_number": "23502N5LQF",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "18_111550_2441536474.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_111420_2441535395.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTR4030N1000AA",
+          "serial_number": "23502N5LGF",
+          "manufacture_date": "12/2023"
+        }
+      ]
+    },
+    {
+      "image": "20_111417_2441534091.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_111417_2441534519.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_110958_2441483470.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_110955_2441484413.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_110954_2441484042.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_110758_2441465160.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_110751_2441463290.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_110722_2441461082.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_110653_2441460834.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_110649_2441460317.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_110638_2441459617.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_110441_2441458783.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_110237_2441457634.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTR4036N1000BA",
+          "serial_number": "23495MLYGF",
+          "manufacture_date": "12/2023"
+        }
+      ]
+    },
+    {
+      "image": "33_110233_2441457110.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_110231_2441456555.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35_110153_2441455754.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4030N1000AA",
+      "serial_number": "23502N5LQF",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4030N1000AA",
+      "serial_number": "23502N5LGF",
+      "manufacture_date": "12/2023"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4036N1000BA",
+      "serial_number": "23495MLYGF",
+      "manufacture_date": "12/2023"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "TUD2C100A9V5VBB",
+      "serial_number": "20103N10GG",
+      "manufacture_date": "3/2020"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:25:32.077070",
+    "source_images": [
+      {
+        "image": "02_171259_2466244004.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "TUD2C100A9V5VBB",
+            "serial_number": "20103N10GG",
+            "manufacture_date": "3/2020"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

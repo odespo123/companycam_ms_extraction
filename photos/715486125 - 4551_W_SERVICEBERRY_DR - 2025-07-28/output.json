@@ -1,0 +1,40 @@
+{
+  "visit_id": "715486125 - 4551_W_SERVICEBERRY_DR - 2025-07-28",
+  "per_image": [
+    {
+      "image": "01_162546_2466103826.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_160437_2466072354.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_160140_2466018620.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_160117_2466017743.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "2TTB3036A1000AA",
+          "serial_number": "7114W0E3F",
+          "manufacture_date": "3/2007"
+        }
+      ]
+    },
+    {
+      "image": "05_160108_2466016956.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "2TTB3036A1000AA",
+      "serial_number": "7114W0E3F",
+      "manufacture_date": "3/2007"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "visit_id": "710599908 - 14422_Grace_Lane - 2025-07-02",
+  "per_image": [
+    {
+      "image": "01_150536_2402881453.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_150536_2402889866.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_150242_2402867878.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_150225_2402866526.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "S9X1C100U5PSBAB",
+          "serial_number": "22154N8DJG",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "05_150217_2402865896.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_150156_2402863748.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_150045_2402857929.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_145822_2402847335.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_145109_2402845824.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_145100_2402845418.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "RA1442CJ1NA",
+          "serial_number": "W291929658",
+          "manufacture_date": "07/2019"
+        }
+      ]
+    },
+    {
+      "image": "11_144857_2402803549.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_144655_2402793808.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_144621_2402791181.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_144513_2402788226.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_144509_2402788017.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_144454_2402784390.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "RA1442CJ1NA",
+          "serial_number": "W291929658",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "17_144406_2402783937.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "RA1442CJ1NA",
+          "serial_number": "W291929658",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "18_144230_2402779144.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_143922_2402758153.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "S9X1C100U5PSBAB",
+      "serial_number": "22154N8DJG",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1442CJ1NA",
+      "serial_number": "W291929658",
+      "manufacture_date": "07/2019"
+    }
+  ]
+}

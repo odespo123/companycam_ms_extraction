@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTV0060A1000CE",
+      "serial_number": "21213YAU1F",
+      "manufacture_date": "5/2021"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:08:47.709385",
+    "source_images": [
+      {
+        "image": "07_152208_2476494825.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTV0060A1000CE",
+            "serial_number": "21213YAU1F",
+            "manufacture_date": "5/2021"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

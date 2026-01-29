@@ -1,0 +1,65 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4A7A6030J1000AB",
+      "serial_number": "20411U4X5F",
+      "manufacture_date": "10/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4A7A6061J1000BA",
+      "serial_number": "204248MB2F",
+      "manufacture_date": "10/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "DHP24CSB21S",
+      "serial_number": null,
+      "manufacture_date": "2018.02"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:31:53.371569",
+    "source_images": [
+      {
+        "image": "38_135959_2457687103.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4A7A6030J1000AB",
+            "serial_number": "20411U4X5F",
+            "manufacture_date": "10/2020"
+          }
+        ]
+      },
+      {
+        "image": "41_135910_2457683115.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4A7A6061J1000BA",
+            "serial_number": "204248MB2F",
+            "manufacture_date": "10/2020"
+          }
+        ]
+      },
+      {
+        "image": "35_140052_2457691346.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "DHPS4CSB21S",
+            "serial_number": null,
+            "manufacture_date": "2018.02"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

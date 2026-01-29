@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "water_heater",
+      "model_number": "GB61-40T40 400",
+      "serial_number": "2502142015675",
+      "manufacture_date": "01/08/2025"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:07:39.650545",
+    "source_images": [
+      {
+        "image": "05_094742_2408648536.jpg",
+        "type": "water heater",
+        "extractions": [
+          {
+            "equipment_type": "water_heater",
+            "model_number": "GB61-40T40 400",
+            "serial_number": "2502142015675",
+            "manufacture_date": "01/08/2025"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

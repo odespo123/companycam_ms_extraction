@@ -1,0 +1,377 @@
+{
+  "visit_id": "711691368 - 13782_White_Oak_Road - 2025-07-09",
+  "per_image": [
+    {
+      "image": "01_161002_2417633857.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_160903_2417636697.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_160852_2417636555.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_160838_2417636466.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_142003_2417075309.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_141959_2417074831.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_141802_2417062900.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_141800_2417062444.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_141757_2417062281.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_141756_2417062155.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_141754_2417061815.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_141751_2417061589.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_141728_2417059389.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_141720_2417058279.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_141708_2417057029.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CH33-31A-2F-3",
+          "serial_number": "6013K03843",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "16_141700_2417056233.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_141656_2417055930.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_141650_2417055404.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_141650_2417055732.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_140331_2416972477.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_140231_2416967099.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_140229_2416966783.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_140225_2416966228.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_140214_2416965252.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_140138_2416961466.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_140129_2416960978.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_140120_2416960721.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_140118_2416960395.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_135945_2416960025.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_135936_2416959657.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_135934_2416959429.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_135933_2416959049.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_135929_2416958730.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_135927_2416958412.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35_135925_2416958079.jpg",
+      "equipment": []
+    },
+    {
+      "image": "36_135923_2416956859.jpg",
+      "equipment": []
+    },
+    {
+      "image": "37_135922_2416956183.jpg",
+      "equipment": []
+    },
+    {
+      "image": "38_135914_2416949111.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CE48D44-210L-015",
+          "serial_number": "D09-00017129"
+        }
+      ]
+    },
+    {
+      "image": "39_135904_2416948004.jpg",
+      "equipment": []
+    },
+    {
+      "image": "40_135902_2416947082.jpg",
+      "equipment": []
+    },
+    {
+      "image": "41_135900_2416946250.jpg",
+      "equipment": []
+    },
+    {
+      "image": "42_135506_2416923018.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "XC14-036-230-03",
+          "serial_number": "5809H10532",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "43_135459_2416921784.jpg",
+      "equipment": []
+    },
+    {
+      "image": "44_135446_2416920383.jpg",
+      "equipment": []
+    },
+    {
+      "image": "45_135439_2416918286.jpg",
+      "equipment": []
+    },
+    {
+      "image": "46_135311_2416908241.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "XC14-024-230-02",
+          "serial_number": "5809F23557",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "47_135239_2416905667.jpg",
+      "equipment": []
+    },
+    {
+      "image": "48_135237_2416905143.jpg",
+      "equipment": []
+    },
+    {
+      "image": "49_135232_2416904697.jpg",
+      "equipment": []
+    },
+    {
+      "image": "50_135227_2416903562.jpg",
+      "equipment": []
+    },
+    {
+      "image": "51_135022_2416892616.jpg",
+      "equipment": []
+    },
+    {
+      "image": "52_135005_2416890919.jpg",
+      "equipment": []
+    },
+    {
+      "image": "53_114937_2416187080.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "HCC16-28",
+          "serial_number": "S9309B01662",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "54_112058_2416019976.jpg",
+      "equipment": []
+    },
+    {
+      "image": "55_105755_2415877586.jpg",
+      "equipment": []
+    },
+    {
+      "image": "56_105746_2415876525.jpg",
+      "equipment": []
+    },
+    {
+      "image": "57_105657_2415871535.jpg",
+      "equipment": []
+    },
+    {
+      "image": "58_105634_2415869126.jpg",
+      "equipment": []
+    },
+    {
+      "image": "59_105623_2415868123.jpg",
+      "equipment": []
+    },
+    {
+      "image": "60_105621_2415867754.jpg",
+      "equipment": []
+    },
+    {
+      "image": "61_105539_2415864554.jpg",
+      "equipment": []
+    },
+    {
+      "image": "62_105503_2415860688.jpg",
+      "equipment": []
+    },
+    {
+      "image": "63_105431_2415857023.jpg",
+      "equipment": []
+    },
+    {
+      "image": "64_105420_2415856039.jpg",
+      "equipment": []
+    },
+    {
+      "image": "65_104933_2415828064.jpg",
+      "equipment": []
+    },
+    {
+      "image": "66_104854_2415823764.jpg",
+      "equipment": []
+    },
+    {
+      "image": "67_104318_2415790868.jpg",
+      "equipment": []
+    },
+    {
+      "image": "68_103722_2415754372.jpg",
+      "equipment": []
+    },
+    {
+      "image": "69_103713_2415753682.jpg",
+      "equipment": []
+    },
+    {
+      "image": "70_103710_2415753061.jpg",
+      "equipment": []
+    },
+    {
+      "image": "71_103652_2415750509.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CE48D44-210L-015",
+          "serial_number": "D09-00017129",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "72_103642_2415749635.jpg",
+      "equipment": []
+    },
+    {
+      "image": "73_103638_2415749113.jpg",
+      "equipment": []
+    },
+    {
+      "image": "74_103637_2415748735.jpg",
+      "equipment": []
+    },
+    {
+      "image": "75_103503_2415739193.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CH33-31A-2F-3",
+      "serial_number": "6013K03843",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CE48D44-210L-015",
+      "serial_number": "D09-00017129"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "XC14-036-230-03",
+      "serial_number": "5809H10532",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "XC14-024-230-02",
+      "serial_number": "5809F23557",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "HCC16-28",
+      "serial_number": "S9309B01662",
+      "manufacture_date": null
+    }
+  ]
+}

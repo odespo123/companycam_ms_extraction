@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCC009DS3HCAA",
+      "serial_number": "22092G93CG",
+      "manufacture_date": "3/2022"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:27:06.114280",
+    "source_images": [
+      {
+        "image": "12_133029_2472417655.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCC009DS3HCAA",
+            "serial_number": "22092G93CG",
+            "manufacture_date": "3/2022"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

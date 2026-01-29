@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR7048A1000AA",
+      "serial_number": "14324NDY2F",
+      "manufacture_date": "8/2014"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:25:50.715623",
+    "source_images": [
+      {
+        "image": "17_150313_2450677270.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR7048A1000AA",
+            "serial_number": "14324NDY2F",
+            "manufacture_date": "8/2014"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

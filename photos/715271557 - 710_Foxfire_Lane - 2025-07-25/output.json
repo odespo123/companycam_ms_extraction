@@ -1,0 +1,60 @@
+{
+  "visit_id": "715271557 - 710_Foxfire_Lane - 2025-07-25",
+  "per_image": [
+    {
+      "image": "01_185748_2461862068.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_185657_2461861133.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_185620_2461860468.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_185600_2461860104.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_184940_2461853435.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_184935_2461853389.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_184552_2461849374.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_184548_2461849249.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "14ACX-036-230-11",
+          "serial_number": "1911L17528",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "09_184500_2461848363.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_184439_2461847946.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "14ACX-036-230-11",
+      "serial_number": "1911L17528",
+      "manufacture_date": null
+    }
+  ]
+}

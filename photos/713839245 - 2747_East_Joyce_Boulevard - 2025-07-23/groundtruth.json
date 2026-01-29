@@ -1,0 +1,65 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWR4030G1000AB",
+      "serial_number": "20282RXL4F",
+      "manufacture_date": "7/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "113ANA030000BEAA",
+      "serial_number": "1513E04569",
+      "manufacture_date": "APR 2013"
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "E6N-40H 110",
+      "serial_number": "2445141362006",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:24:18.353743",
+    "source_images": [
+      {
+        "image": "04_163749_2454817626.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TWR4030G1000AB",
+            "serial_number": "20282RXL4F",
+            "manufacture_date": "7/2020"
+          }
+        ]
+      },
+      {
+        "image": "14_151711_2454411053.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "113ANA030000BEAA",
+            "serial_number": "1513E04569",
+            "manufacture_date": "APR 2013"
+          }
+        ]
+      },
+      {
+        "image": "36_092726_2452391919.jpg",
+        "type": "water heater",
+        "extractions": [
+          {
+            "equipment_type": "water_heater",
+            "model_number": "E6N-40H 110",
+            "serial_number": "2445141362006",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

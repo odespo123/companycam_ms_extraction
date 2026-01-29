@@ -1,0 +1,154 @@
+{
+  "visit_id": "700700411 - 3601_Southeast_5th_Street - 2025-07-18",
+  "per_image": [
+    {
+      "image": "01_095911_2441082392.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_095856_2441081294.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_095854_2441080150.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_094515_2441008449.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_094513_2441008195.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_094512_2441007913.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_094511_2441007477.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_094411_2441002487.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_094331_2440999508.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_094330_2440999262.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCC007DS3HCBA",
+          "serial_number": "234551845G",
+          "manufacture_date": "11/2023"
+        }
+      ]
+    },
+    {
+      "image": "11_094329_2440998921.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCC007DS3HCBA",
+          "serial_number": "234551BK5G",
+          "manufacture_date": "11/2023"
+        }
+      ]
+    },
+    {
+      "image": "12_094323_2440998416.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_094018_2440982719.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_093154_2440938318.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_092338_2440897589.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_092322_2440896111.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_092320_2440895984.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "11116181G001",
+          "serial_number": "20335000000027740673",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "18_092315_2440895513.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_092305_2440894641.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4A7V7X48A1000AA",
+          "serial_number": "233217KKJF"
+        }
+      ]
+    },
+    {
+      "image": "20_091942_2440876863.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4A7V7X48A1000AA",
+          "serial_number": "2322317KK4F",
+          "manufacture_date": "08/2023"
+        }
+      ]
+    },
+    {
+      "image": "21_091939_2440876606.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCC007DS3HCBA",
+      "serial_number": "234551845G",
+      "manufacture_date": "11/2023"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCC007DS3HCBA",
+      "serial_number": "234551BK5G",
+      "manufacture_date": "11/2023"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "11116181G001",
+      "serial_number": "20335000000027740673",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4A7V7X48A1000AA",
+      "serial_number": "233217KKJF"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4A7V7X48A1000AA",
+      "serial_number": "2322317KK4F",
+      "manufacture_date": "08/2023"
+    }
+  ]
+}

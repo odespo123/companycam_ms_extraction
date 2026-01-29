@@ -1,0 +1,104 @@
+{
+  "visit_id": "714468488 - 6334_West_Valley_View_Road - 2025-07-23",
+  "per_image": [
+    {
+      "image": "01_115324_2453283596.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_115318_2453283144.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_112438_2453127912.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_111914_2453095452.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_111704_2453081415.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_102304_2452718050.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_102249_2452716383.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_100732_2452624039.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_100609_2452614575.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_094501_2452492587.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_093426_2452430828.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_093051_2452410527.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_093049_2452410159.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_093029_2452408387.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_092358_2452372254.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_090202_2452255617.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTX8048B1000BA",
+          "serial_number": "22113NBC5F",
+          "manufacture_date": "3/2022"
+        }
+      ]
+    },
+    {
+      "image": "17_090043_2452248929.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_085804_2452236514.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_085719_2452233073.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_085659_2452231503.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_083644_2452139740.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8048B1000BA",
+      "serial_number": "22113NBC5F",
+      "manufacture_date": "3/2022"
+    }
+  ]
+}

@@ -5,25 +5,32 @@ import os
 import base64
 import time
 from pathlib import Path
+
+from dotenv import load_dotenv
+load_dotenv()
+
 from google import genai
 from google.genai import errors
 
 # Expected output format per equipment:
 # {
-#     "equipment_type": "hvac" | "water_heater",
+#     "equipment_type": "outdoor_condenser" | "air_handler" | "evaporator_coil" | "furnace" | "water_heater",
 #     "model_number": str | null,
 #     "serial_number": str | null,
 #     "manufacture_date": str | null
 # }
 
-EXTRACTION_PROMPT = """Analyze this image from a home service visit. Look for data plates or labels on:
-- Outdoor HVAC units (air conditioners, heat pumps, condensers)
-- Water heaters
+EXTRACTION_PROMPT = """Analyze this image from a home service visit. Look for data plates or labels on HVAC equipment and water heaters.
 
 IMPORTANT: Only extract information from clear, close-up shots where you can fully read the data plate/label text. Do NOT attempt to extract from far away shots, angled images, or partially visible labels. If the text is not clearly legible, return an empty array.
 
 For each piece of equipment with a clearly readable data plate, extract:
-- equipment_type: "hvac" or "water_heater"
+- equipment_type: one of "outdoor_condenser", "air_handler", "evaporator_coil", "furnace", or "water_heater"
+  - outdoor_condenser: outdoor AC/heat pump units, condensers
+  - air_handler: indoor air handling units
+  - evaporator_coil: indoor evaporator coils (A-coils, slab coils)
+  - furnace: gas or electric furnaces
+  - water_heater: tank or tankless water heaters
 - model_number: the model number if visible
 - serial_number: the serial number if visible
 - manufacture_date: the manufacture date if visible (any format)
@@ -142,7 +149,7 @@ def process_visit(visit_dir: str, client: genai.Client = None) -> dict:
         })
         # Rate limit: wait between requests
         if i < len(image_files) - 1:
-            time.sleep(1)
+            time.sleep(0.2)
 
     equipment = aggregate_equipment(all_extractions)
 

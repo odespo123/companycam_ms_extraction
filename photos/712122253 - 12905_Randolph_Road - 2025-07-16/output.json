@@ -1,0 +1,96 @@
+{
+  "visit_id": "712122253 - 12905_Randolph_Road - 2025-07-16",
+  "per_image": [
+    {
+      "image": "01_181953_2436500900.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_181824_2436497888.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_181635_2436494330.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "RA1448AJ1NA",
+          "serial_number": "W431925934",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "04_181557_2436493062.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_181539_2436492503.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_181138_2436484715.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_175822_2436455779.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_175813_2436455645.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_175653_2436452180.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_175644_2436451733.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_175619_2436450595.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_175407_2436445504.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_175234_2436441920.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_175228_2436441700.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_175224_2436441532.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_175221_2436441442.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_175208_2436441122.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_175156_2436440499.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_175040_2436437789.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1448AJ1NA",
+      "serial_number": "W431925934",
+      "manufacture_date": null
+    }
+  ]
+}

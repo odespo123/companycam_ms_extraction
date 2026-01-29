@@ -1,0 +1,176 @@
+{
+  "visit_id": "715395635 - 9511_Pullum_Place_Rd - 2025-07-28",
+  "per_image": [
+    {
+      "image": "01_170405_2466220273.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_170331_2466217655.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TWB3024D1000AA",
+          "serial_number": "14442KTX4F",
+          "manufacture_date": "10/2014"
+        }
+      ]
+    },
+    {
+      "image": "03_170201_2466213581.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_165027_2466180802.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_165022_2466180605.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_165018_2466179892.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_165018_2466179959.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_164949_2466178380.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_164812_2466173902.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_164810_2466173405.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_164715_2466171270.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_164714_2466170735.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_164711_2466170595.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_164659_2466170066.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_164456_2466164216.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_164327_2466159357.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_163738_2466141897.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "TEM4A0B30S31SAA",
+          "serial_number": "2111N582V",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "18_163736_2466141734.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "TEM4A0B30S31SAA",
+          "serial_number": "15211M652V",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "19_163548_2466135899.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_163533_2466135092.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_163513_2466134050.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "GED 40 780",
+          "serial_number": "H54-A-74-09695",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "22_163506_2466133674.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_163419_2466131114.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_162742_2466110136.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_162737_2466109801.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_162736_2466109717.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "TEM4A0B30S31SAA",
+          "serial_number": "19211N692V",
+          "manufacture_date": "5/2019"
+        }
+      ]
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWB3024D1000AA",
+      "serial_number": "14442KTX4F",
+      "manufacture_date": "10/2014"
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TEM4A0B30S31SAA",
+      "serial_number": "2111N582V",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TEM4A0B30S31SAA",
+      "serial_number": "15211M652V",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "GED 40 780",
+      "serial_number": "H54-A-74-09695",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TEM4A0B30S31SAA",
+      "serial_number": "19211N692V",
+      "manufacture_date": "5/2019"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1430AJ1NA",
+      "serial_number": "W522002360",
+      "manufacture_date": "12/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1436AJINA",
+      "serial_number": "W272147711",
+      "manufacture_date": "07/2021"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "RCF3617STAMCA",
+      "serial_number": "W032153911",
+      "manufacture_date": "01/2021"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "R801CA075417MSA",
+      "serial_number": "W522051110",
+      "manufacture_date": "01/2021"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "R801CA075417MSA",
+      "serial_number": "W072117666",
+      "manufacture_date": "02/2021"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "RCF3617STAMCA",
+      "serial_number": "W112135161",
+      "manufacture_date": "03/2021"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:28:24.723549",
+    "source_images": [
+      {
+        "image": "12_130153_2449980987.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "RA1430AJ1NA",
+            "serial_number": "W522002360",
+            "manufacture_date": "12/2020"
+          }
+        ]
+      },
+      {
+        "image": "26_125530_2449945845.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "RA1436AJINA",
+            "serial_number": "W272147711",
+            "manufacture_date": "07/2021"
+          }
+        ]
+      },
+      {
+        "image": "37_123907_2449856188.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "RCF3617STAMCA",
+            "serial_number": "W032153911",
+            "manufacture_date": "01/2021"
+          }
+        ]
+      },
+      {
+        "image": "40_123748_2449849470.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "R801CA075417MSA",
+            "serial_number": "W522051110",
+            "manufacture_date": "01/2021"
+          }
+        ]
+      },
+      {
+        "image": "47_123402_2449827663.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "R801CA075417MSA",
+            "serial_number": "W072117666",
+            "manufacture_date": "02/2021"
+          }
+        ]
+      },
+      {
+        "image": "67_114933_2449568865.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "RCF3617STAMCA",
+            "serial_number": "W112135161",
+            "manufacture_date": "03/2021"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

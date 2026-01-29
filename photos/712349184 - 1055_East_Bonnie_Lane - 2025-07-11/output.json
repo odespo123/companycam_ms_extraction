@@ -1,0 +1,89 @@
+{
+  "visit_id": "712349184 - 1055_East_Bonnie_Lane - 2025-07-11",
+  "per_image": [
+    {
+      "image": "01_170420_2424723276.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_170416_2424723512.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_165902_2424723395.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_165856_2424723637.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_161727_2424723721.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "81V52",
+          "serial_number": "1108A02132",
+          "manufacture_date": "11/2008"
+        }
+      ]
+    },
+    {
+      "image": "06_161715_2424723815.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_161712_2424723943.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_161608_2424724044.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_161604_2424724142.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_161428_2424494907.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_161424_2424494602.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_161413_2424493991.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_161413_2424494263.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_161407_2424493453.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "82MV52-2",
+          "serial_number": "RH 1108226372",
+          "manufacture_date": "11/2008"
+        }
+      ]
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "water_heater",
+      "model_number": "81V52",
+      "serial_number": "1108A02132",
+      "manufacture_date": "11/2008"
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "82MV52-2",
+      "serial_number": "RH 1108226372",
+      "manufacture_date": "11/2008"
+    }
+  ]
+}

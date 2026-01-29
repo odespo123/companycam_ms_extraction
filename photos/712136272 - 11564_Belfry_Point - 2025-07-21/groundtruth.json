@@ -1,0 +1,101 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCC009DS3HCAA",
+      "serial_number": "21155P63CG",
+      "manufacture_date": "4/2021"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB003DS3HCAA",
+      "serial_number": "22095HUH5G",
+      "manufacture_date": "3/2022"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR6061C1000BA",
+      "serial_number": "21202LS55F",
+      "manufacture_date": "5/2021"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8024A1000CA",
+      "serial_number": "20504NKM2F",
+      "manufacture_date": "12/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8036A1000CA",
+      "serial_number": "20153R1D2F",
+      "manufacture_date": "4/2020"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:05:17.516334",
+    "source_images": [
+      {
+        "image": "15_102526_2445565685.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCC009DS3HCAA",
+            "serial_number": "21155P63CG",
+            "manufacture_date": "4/2021"
+          }
+        ]
+      },
+      {
+        "image": "24_101921_2445526630.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCB003DS3HCAA",
+            "serial_number": "22055UHS5G",
+            "manufacture_date": "2/2022"
+          }
+        ]
+      },
+      {
+        "image": "33_093749_2445301182.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR6061C1000BA",
+            "serial_number": "21202LS55F",
+            "manufacture_date": "5/2021"
+          }
+        ]
+      },
+      {
+        "image": "49_091909_2445208617.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTX8024A1000CA",
+            "serial_number": "20504NKM2F",
+            "manufacture_date": "12/2020"
+          }
+        ]
+      },
+      {
+        "image": "54_091446_2445186690.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTX8036A1000CA",
+            "serial_number": "20153R1D2F",
+            "manufacture_date": "4/2020"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

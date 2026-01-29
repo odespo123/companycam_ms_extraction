@@ -1,0 +1,48 @@
+{
+  "visit_id": "702604574 - 1920_Lee_Street - 2025-07-07",
+  "per_image": [
+    {
+      "image": "01_094830_2408652467.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_094829_2408652330.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_094825_2408652015.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_094822_2408651858.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_094742_2408648536.jpg",
+      "equipment": [
+        {
+          "equipment_type": "water_heater",
+          "model_number": "GB61-40T40 400",
+          "serial_number": "2502142015675",
+          "manufacture_date": "01/08/2025"
+        }
+      ]
+    },
+    {
+      "image": "06_094737_2408648281.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_094736_2408648174.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "water_heater",
+      "model_number": "GB61-40T40 400",
+      "serial_number": "2502142015675",
+      "manufacture_date": "01/08/2025"
+    }
+  ]
+}

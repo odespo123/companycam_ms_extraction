@@ -1,0 +1,106 @@
+{
+  "visit_id": "711309138 - 3914_Southwest_Mason_Road - 2025-07-07",
+  "per_image": [
+    {
+      "image": "01_091252_2408485232.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4A4C4036D1000AA",
+          "serial_number": "D160733006",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "02_090550_2408451777.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_085800_2408417247.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_085701_2408412378.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_084757_2408375627.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_084746_2408374806.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_082705_2408295317.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "A4AC4036D1000AA",
+          "serial_number": "22352TMA1F",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "08_082230_2408278447.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_081132_2408241075.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_081130_2408240925.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_081127_2408240680.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_081032_2408237828.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_081030_2408237710.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "A4AC4036D1000AA",
+          "serial_number": "22352TMA1F"
+        }
+      ]
+    },
+    {
+      "image": "14_080919_2408234052.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "A4AC4036D1000AA",
+          "serial_number": "22352TMA1F",
+          "manufacture_date": "8/2022"
+        }
+      ]
+    },
+    {
+      "image": "15_080907_2408233574.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4A4C4036D1000AA",
+      "serial_number": "D160733006",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "A4AC4036D1000AA",
+      "serial_number": "22352TMA1F",
+      "manufacture_date": "8/2022"
+    }
+  ]
+}

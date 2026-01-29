@@ -1,0 +1,150 @@
+{
+  "visit_id": "712238733 - 3842_Laural_Ridge - 2025-07-10",
+  "per_image": [
+    {
+      "image": "01_162800_2421197706.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_162754_2421197823.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_162750_2421197545.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_153157_2420971655.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_152637_2420949501.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_152629_2420948218.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_152100_2420931877.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "HE48948D175B2705AP",
+          "serial_number": "7117C34363",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "08_152058_2420924993.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_152057_2420924028.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_152055_2420922821.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_152053_2420922474.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_152051_2420922291.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "HE48948D175B2705AP",
+          "serial_number": "71117C34363",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "13_152048_2420922067.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_151554_2420900355.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_151525_2420898272.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_151524_2420898169.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_151523_2420898052.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_151522_2420897894.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_151435_2420894215.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_151424_2420893436.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_151308_2420893228.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "HSA536GKA101",
+          "serial_number": "E184601333",
+          "manufacture_date": "NOV 2018"
+        }
+      ]
+    },
+    {
+      "image": "22_151305_2420892999.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_151303_2420893148.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_151302_2420888440.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_151301_2420887527.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_150623_2420856055.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "HE48948D175B2705AP",
+      "serial_number": "7117C34363",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "HE48948D175B2705AP",
+      "serial_number": "71117C34363",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "HSA536GKA101",
+      "serial_number": "E184601333",
+      "manufacture_date": "NOV 2018"
+    }
+  ]
+}

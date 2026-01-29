@@ -1,0 +1,129 @@
+{
+  "visit_id": "716016854 - 3506_Southwest_Cranbrook_Avenue - 2025-07-31",
+  "per_image": [
+    {
+      "image": "01_154659_2476849646.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_154657_2476849773.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_154652_2476595256.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_152736_2476518089.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_152729_2476517629.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_152438_2476505789.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_152208_2476494825.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTV0060A1000CE",
+          "serial_number": "21213YAU1F",
+          "manufacture_date": "5/2021"
+        }
+      ]
+    },
+    {
+      "image": "08_152200_2476494524.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_151734_2476493412.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_151729_2476493810.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_151719_2476493661.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_151438_2476461591.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_151430_2476460462.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_150905_2476436426.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_145410_2476365249.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "TUD2C100ACV52BC",
+          "serial_number": "21213JE5GG",
+          "manufacture_date": "5/2021"
+        }
+      ]
+    },
+    {
+      "image": "16_145204_2476355503.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_145126_2476352612.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_145026_2476347726.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_145016_2476346961.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_144749_2476335754.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_144715_2476333095.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_144652_2476331393.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_144221_2476312599.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_144211_2476310466.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTV0060A1000CE",
+      "serial_number": "21213YAU1F",
+      "manufacture_date": "5/2021"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "TUD2C100ACV52BC",
+      "serial_number": "21213JE5GG",
+      "manufacture_date": "5/2021"
+    }
+  ]
+}

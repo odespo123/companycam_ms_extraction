@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "4TXCB003DS3HCAA",
+      "serial_number": "21241J1E5G",
+      "manufacture_date": "6/2021"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:29:22.582235",
+    "source_images": [
+      {
+        "image": "02_185238_2473660052.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "4TXCB003DS3HCAA",
+            "serial_number": "21241J1E5G",
+            "manufacture_date": "6/2021"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "water_heater",
+      "model_number": "G62-75T75-4NOV 400",
+      "serial_number": "2526144272737",
+      "manufacture_date": "06/26/2025"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:26:02.598588",
+    "source_images": [
+      {
+        "image": "25_140540_2472947905.jpg",
+        "type": "water heater",
+        "extractions": [
+          {
+            "equipment_type": "water_heater",
+            "model_number": "G62-75T75-4NOV 400",
+            "serial_number": "2526144272737",
+            "manufacture_date": "06/26/2025"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

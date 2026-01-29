@@ -1,0 +1,65 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TUD2B080A9V3VBB",
+      "serial_number": "164944D11G",
+      "manufacture_date": "12/2016"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB004DS3HCAA",
+      "serial_number": "163240115G",
+      "manufacture_date": "8/2016"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8036A1000BA",
+      "serial_number": "16305XYY2F",
+      "manufacture_date": "7/2016"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:35:23.186913",
+    "source_images": [
+      {
+        "image": "01_093543_2430352179.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "TUD2B080A9V3VBB",
+            "serial_number": "164944D11G",
+            "manufacture_date": "12/2016"
+          }
+        ]
+      },
+      {
+        "image": "14_093131_2430328354.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCB004DS3HCAA",
+            "serial_number": "163240115G",
+            "manufacture_date": "8/2016"
+          }
+        ]
+      },
+      {
+        "image": "28_090617_2430188159.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTX8036A1000BA",
+            "serial_number": "16305XYY2F",
+            "manufacture_date": "7/2016"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

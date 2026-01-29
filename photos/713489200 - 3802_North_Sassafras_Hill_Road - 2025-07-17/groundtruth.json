@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "FTX24NMVJU",
+      "serial_number": "G012916",
+      "manufacture_date": "2016.6"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:26:59.627599",
+    "source_images": [
+      {
+        "image": "09_125545_2438696199.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "FTX24NMVJU",
+            "serial_number": "G012916",
+            "manufacture_date": "2016.6"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

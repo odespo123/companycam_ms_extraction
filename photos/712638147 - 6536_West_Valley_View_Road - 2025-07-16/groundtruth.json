@@ -1,0 +1,65 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "ML180UH045E36A-54",
+      "serial_number": "1722H18523",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CX35-24A-6F-20",
+      "serial_number": "1523D55310",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4060L1000BA",
+      "serial_number": "20394R9F5F",
+      "manufacture_date": "9/2020"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:04:32.769050",
+    "source_images": [
+      {
+        "image": "11_184422_2436544279.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "ML180UH045E36A-54",
+            "serial_number": "1722H18523",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "15_184146_2436540470.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "CX35-24A-6F-20",
+            "serial_number": "1523D55310",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "69_180341_2436466803.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR4060L1000BA",
+            "serial_number": "20394R9F5F",
+            "manufacture_date": "9/2020"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

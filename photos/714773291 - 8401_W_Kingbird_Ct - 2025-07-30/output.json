@@ -1,0 +1,93 @@
+{
+  "visit_id": "714773291 - 8401_W_Kingbird_Ct - 2025-07-30",
+  "per_image": [
+    {
+      "image": "01_185445_2473663101.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_185238_2473660052.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCB003DS3HCAA",
+          "serial_number": "21241J1E5G",
+          "manufacture_date": "6/2021"
+        }
+      ]
+    },
+    {
+      "image": "03_185211_2473659332.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_184705_2473651230.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "3HCAA",
+          "serial_number": "21241J1E5G",
+          "manufacture_date": "6/2021"
+        }
+      ]
+    },
+    {
+      "image": "05_184653_2473650858.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_184651_2473650806.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_184509_2473648343.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_184003_2473640622.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_184001_2473640572.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_184000_2473640551.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_183950_2473640273.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_183940_2473640024.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_183937_2473639917.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_183928_2473639622.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_183923_2473639476.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB003DS3HCAA",
+      "serial_number": "21241J1E5G",
+      "manufacture_date": "6/2021"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "3HCAA",
+      "serial_number": "21241J1E5G",
+      "manufacture_date": "6/2021"
+    }
+  ]
+}

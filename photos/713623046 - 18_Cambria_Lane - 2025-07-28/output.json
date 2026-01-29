@@ -1,0 +1,169 @@
+{
+  "visit_id": "713623046 - 18_Cambria_Lane - 2025-07-28",
+  "per_image": [
+    {
+      "image": "01_161634_2466071575.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_152134_2465858247.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_151838_2465845883.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_151628_2465834947.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_144943_2465716579.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_142502_2465621721.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_142457_2465597332.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "TAM9A0C48V41DAB",
+          "serial_number": "22254JJJ7V",
+          "manufacture_date": "4-11-22"
+        }
+      ]
+    },
+    {
+      "image": "08_142118_2465576387.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_142109_2465575597.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_142103_2465575050.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_142007_2465570275.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_141959_2465569660.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_141737_2465558560.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_141710_2465556319.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_141706_2465556100.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_141701_2465555692.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_141658_2465555159.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_141612_2465551212.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_141603_2465550791.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_141600_2465550311.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_141546_2465549194.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_141454_2465545158.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_141453_2465544899.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_140659_2465540241.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_140109_2465471322.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_140025_2465467829.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_140022_2465467393.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_135347_2465433133.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_134224_2465376918.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TWL9048A1000AC",
+          "serial_number": "223845MPCF",
+          "manufacture_date": "9/2022"
+        }
+      ]
+    },
+    {
+      "image": "30_134213_2465376031.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_133207_2465322892.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_133145_2465320765.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_133132_2465319979.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_132200_2465269253.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "TAM9A0C48V41DAB",
+      "serial_number": "22254JJJ7V",
+      "manufacture_date": "4-11-22"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWL9048A1000AC",
+      "serial_number": "223845MPCF",
+      "manufacture_date": "9/2022"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CBA25UH-030-230-01",
+      "serial_number": "1519J07269",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "ML14XP1-030-230A01",
+      "serial_number": "1919K49797",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "E6N-40H 110",
+      "serial_number": "1932115949043",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "CBA25UH-030-230-01",
+      "serial_number": "1519J07269",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:26:54.209475",
+    "source_images": [
+      {
+        "image": "08_091213_2459516181.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "CBA25UH-030-230-01",
+            "serial_number": "1519J07269",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "26_084555_2459392423.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "ML14XP1-030-230A01",
+            "serial_number": "1919K49797",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "30_083945_2459366830.jpg",
+        "type": "water heater",
+        "extractions": [
+          {
+            "equipment_type": "water_heater",
+            "model_number": "E6N-40H 110",
+            "serial_number": "1932115949043",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "34_083446_2459347198.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "CBA25UH-030-230-01",
+            "serial_number": "1519J07269",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

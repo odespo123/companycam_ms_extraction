@@ -1,0 +1,65 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "R801SA075417MSA",
+      "serial_number": "W181511742",
+      "manufacture_date": "05/2015"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "HE32136C175B1605AP",
+      "serial_number": "7115D22714",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "13AJN36A01",
+      "serial_number": "W431412678",
+      "manufacture_date": "10/2014"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:25:46.206897",
+    "source_images": [
+      {
+        "image": "05_080304_2459228477.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "R801SA075417MSA",
+            "serial_number": "W181511742",
+            "manufacture_date": "05/2015"
+          }
+        ]
+      },
+      {
+        "image": "12_080036_2459220445.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "HE32136C175B1605AP",
+            "serial_number": "7115D22714",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "34_075320_2459199332.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "13AJN36A01",
+            "serial_number": "W431412678",
+            "manufacture_date": "10/2014"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

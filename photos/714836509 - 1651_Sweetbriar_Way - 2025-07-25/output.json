@@ -1,0 +1,234 @@
+{
+  "visit_id": "714836509 - 1651_Sweetbriar_Way - 2025-07-25",
+  "per_image": [
+    {
+      "image": "01_084033_2459370229.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_084017_2459368895.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_083859_2459363925.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_083857_2459363793.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_080304_2459228477.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "R801SA075417MSA",
+          "serial_number": "W181511742",
+          "manufacture_date": "05/2015"
+        }
+      ]
+    },
+    {
+      "image": "06_080302_2459228217.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "R801SA075417MSA",
+          "serial_number": "W181511742",
+          "manufacture_date": "05/2018"
+        }
+      ]
+    },
+    {
+      "image": "07_080301_2459228164.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "R801SA075417MSA",
+          "serial_number": "W181511742",
+          "manufacture_date": "05/2015"
+        }
+      ]
+    },
+    {
+      "image": "08_080053_2459221462.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_080051_2459221259.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_080046_2459221029.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_080039_2459220645.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "HE32136C175B1605AP",
+          "serial_number": "7115D22714",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "12_080036_2459220445.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "HE32136C175B1605AP",
+          "serial_number": "7115D22714",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "13_080033_2459220361.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "HE32136C175B1605AP",
+          "serial_number": "7115D22714",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "14_080031_2459220194.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_080029_2459220138.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_080027_2459220057.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "HE33136C175B1505AP",
+          "serial_number": "17051505AP",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "17_075821_2459214111.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_075820_2459214053.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_075819_2459213988.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_075818_2459213928.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_075817_2459213859.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_075815_2459213681.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "HE32136C175B1605AP",
+          "serial_number": "7115D22714",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "23_075810_2459213399.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_075809_2459213339.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_075807_2459213275.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_075806_2459213226.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_075804_2459213170.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_075803_2459213106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_075528_2459205374.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_075523_2459205126.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_075450_2459203652.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_075324_2459199507.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_075322_2459199386.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_075320_2459199332.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "13AJN36A01",
+          "serial_number": "W431412678",
+          "manufacture_date": "10/2014"
+        }
+      ]
+    },
+    {
+      "image": "35_075318_2459199287.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "R801SA075417MSA",
+      "serial_number": "W181511742",
+      "manufacture_date": "05/2015"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "HE32136C175B1605AP",
+      "serial_number": "7115D22714",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "HE33136C175B1505AP",
+      "serial_number": "17051505AP",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "13AJN36A01",
+      "serial_number": "W431412678",
+      "manufacture_date": "10/2014"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB004DS3HCCV",
+      "serial_number": "23341RXJCV",
+      "manufacture_date": "8/2023"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:31:09.828756",
+    "source_images": [
+      {
+        "image": "07_184406_2440052384.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCB004DS3HCCV",
+            "serial_number": "23341RXJCV",
+            "manufacture_date": "8/2023"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

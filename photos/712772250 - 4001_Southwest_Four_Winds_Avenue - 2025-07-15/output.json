@@ -1,0 +1,188 @@
+{
+  "visit_id": "712772250 - 4001_Southwest_Four_Winds_Avenue - 2025-07-15",
+  "per_image": [
+    {
+      "image": "01_171008_2432761992.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_170505_2432748071.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_165947_2432747106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_165421_2432712666.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_165350_2432710970.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_165300_2432710125.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_165255_2432709999.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "CSABB341SQ",
+          "serial_number": "202308000008200884",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "08_165248_2432709872.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTV7X48A1000AA",
+          "serial_number": "24181810037",
+          "manufacture_date": "6/20/2024"
+        }
+      ]
+    },
+    {
+      "image": "09_165247_2432709723.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_164720_2432690732.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_164330_2432678674.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_164035_2432669449.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_164029_2432669070.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_164021_2432668625.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "ED4X36L19C",
+          "serial_number": "2440S22LCG",
+          "manufacture_date": "10/2024"
+        }
+      ]
+    },
+    {
+      "image": "15_164017_2432668484.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_164015_2432668312.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "S8V2C100M5PCBAA",
+          "serial_number": "243853CCHG",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "17_163953_2432667180.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_163951_2432667128.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_163435_2432650289.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_163434_2432650231.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_162836_2432629622.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_162833_2432629294.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_162831_2432629199.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_162702_2432624267.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_162423_2432614561.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_162421_2432614416.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_162419_2432614258.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTV7X48A1000AA",
+          "serial_number": "24342P9KJF",
+          "manufacture_date": "8/2024"
+        }
+      ]
+    },
+    {
+      "image": "28_162415_2432614158.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_162308_2432610299.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "CSABB341SQ",
+      "serial_number": "202308000008200884",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTV7X48A1000AA",
+      "serial_number": "24181810037",
+      "manufacture_date": "6/20/2024"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "ED4X36L19C",
+      "serial_number": "2440S22LCG",
+      "manufacture_date": "10/2024"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "S8V2C100M5PCBAA",
+      "serial_number": "243853CCHG",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTV7X48A1000AA",
+      "serial_number": "24342P9KJF",
+      "manufacture_date": "8/2024"
+    }
+  ]
+}

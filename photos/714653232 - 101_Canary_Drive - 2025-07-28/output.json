@@ -1,0 +1,178 @@
+{
+  "visit_id": "714653232 - 101_Canary_Drive - 2025-07-28",
+  "per_image": [
+    {
+      "image": "01_153600_2465999841.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_153100_2465898906.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_152216_2465860650.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CNPVP3014ALAAAAA",
+          "serial_number": "2615X35905",
+          "manufacture_date": "23 Jun 2015"
+        }
+      ]
+    },
+    {
+      "image": "04_152210_2465860233.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_152205_2465859861.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_152142_2465858166.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CNPV3014ALAAAA",
+          "serial_number": "2615X35805",
+          "manufacture_date": "03 Jun 2015"
+        }
+      ]
+    },
+    {
+      "image": "07_151808_2465843043.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_151638_2465835856.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_151630_2465835439.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_151629_2465835267.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_151608_2465834062.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_151516_2465829395.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_151423_2465825317.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "310AAU036070AAJA",
+          "serial_number": "3715A14588",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "14_151324_2465820667.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_151320_2465820296.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_151236_2465817622.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_151232_2465817226.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CNPVP3014ALAAAAA",
+          "serial_number": "2615X35905",
+          "manufacture_date": "Jun-2015"
+        }
+      ]
+    },
+    {
+      "image": "18_150247_2465774045.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_145928_2465759370.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_145745_2465751158.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_145453_2465738106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_145423_2465735062.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_145035_2465718343.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_145022_2465717418.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_144948_2465714893.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_144816_2465707885.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_144215_2465680176.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "114CNA024000BAAA",
+          "serial_number": "2715E00036",
+          "manufacture_date": "JUN 2015"
+        }
+      ]
+    },
+    {
+      "image": "28_144205_2465679372.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CNPVP3014ALAAAAA",
+      "serial_number": "2615X35905",
+      "manufacture_date": "23 Jun 2015"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CNPV3014ALAAAA",
+      "serial_number": "2615X35805",
+      "manufacture_date": "03 Jun 2015"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "310AAU036070AAJA",
+      "serial_number": "3715A14588",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "114CNA024000BAAA",
+      "serial_number": "2715E00036",
+      "manufacture_date": "JUN 2015"
+    }
+  ]
+}

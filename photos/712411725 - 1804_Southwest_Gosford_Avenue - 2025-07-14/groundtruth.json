@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "4TXCB006DS3HCAA",
+      "serial_number": "201132EK5G",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8048B1000BA",
+      "serial_number": "194243W52F",
+      "manufacture_date": "10/2019"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:25:27.157911",
+    "source_images": [
+      {
+        "image": "02_131244_2428173342.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "4TXCB006DS3HCAA",
+            "serial_number": "201132EK5G",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "04_130253_2428127440.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTX8048B1000BA",
+            "serial_number": "194243W52F",
+            "manufacture_date": "10/2019"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

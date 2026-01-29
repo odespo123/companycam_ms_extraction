@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RGEA14048AJT101AA",
+      "serial_number": "F461600030",
+      "manufacture_date": "11/2016"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:23:56.746741",
+    "source_images": [
+      {
+        "image": "14_151418_2417366298.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "RGEA14048AJT101AA",
+            "serial_number": "F461600030",
+            "manufacture_date": "11/2016"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

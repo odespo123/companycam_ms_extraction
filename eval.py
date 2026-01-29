@@ -12,22 +12,57 @@ def load_json(path: Path) -> dict:
 def match_equipment(predicted: list[dict], ground_truth: list[dict]) -> list[tuple]:
     """Match predicted equipment to ground truth by model/serial overlap.
 
+    Uses priority matching:
+    1. Both model AND serial match (strongest)
+    2. Serial matches (serials are unique)
+    3. Model matches (weakest - multiple units can share model)
+
     Returns list of (pred, gt) tuples. Unmatched pred has gt=None, unmatched gt has pred=None.
     """
     matches = []
     used_gt = set()
     used_pred = set()
 
-    # First pass: exact match on model AND serial (when both exist)
+    def model_match(pred, gt):
+        return pred.get("model_number") and pred["model_number"] == gt.get("model_number")
+
+    def serial_match(pred, gt):
+        return pred.get("serial_number") and pred["serial_number"] == gt.get("serial_number")
+
+    # Pass 1: both model AND serial match
     for i, pred in enumerate(predicted):
+        if i in used_pred:
+            continue
         for j, gt in enumerate(ground_truth):
             if j in used_gt:
                 continue
-            # Match if model numbers match, or serial numbers match (when present)
-            model_match = pred.get("model_number") and pred["model_number"] == gt.get("model_number")
-            serial_match = pred.get("serial_number") and pred["serial_number"] == gt.get("serial_number")
+            if model_match(pred, gt) and serial_match(pred, gt):
+                matches.append((pred, gt))
+                used_pred.add(i)
+                used_gt.add(j)
+                break
 
-            if model_match or serial_match:
+    # Pass 2: serial matches
+    for i, pred in enumerate(predicted):
+        if i in used_pred:
+            continue
+        for j, gt in enumerate(ground_truth):
+            if j in used_gt:
+                continue
+            if serial_match(pred, gt):
+                matches.append((pred, gt))
+                used_pred.add(i)
+                used_gt.add(j)
+                break
+
+    # Pass 3: model matches
+    for i, pred in enumerate(predicted):
+        if i in used_pred:
+            continue
+        for j, gt in enumerate(ground_truth):
+            if j in used_gt:
+                continue
+            if model_match(pred, gt):
                 matches.append((pred, gt))
                 used_pred.add(i)
                 used_gt.add(j)
@@ -57,15 +92,13 @@ def eval_field(pred_val, gt_val) -> bool:
     return pred_val == gt_val
 
 
-def eval_visit(visit_dir: Path) -> dict:
-    """Evaluate a single visit, return metrics."""
+def eval_visit(visit_dir: Path) -> dict | None:
+    """Evaluate a single visit, return metrics or None if missing files."""
     output_path = visit_dir / "output.json"
     gt_path = visit_dir / "groundtruth.json"
 
-    if not output_path.exists():
-        return {"error": "No output.json found", "visit_id": visit_dir.name}
-    if not gt_path.exists():
-        return {"error": "No groundtruth.json found", "visit_id": visit_dir.name}
+    if not output_path.exists() or not gt_path.exists():
+        return None
 
     output = load_json(output_path)
     gt = load_json(gt_path)
@@ -106,6 +139,47 @@ def eval_visit(visit_dir: Path) -> dict:
         else:
             field_accuracy[field] = None
 
+    # Per-equipment-type breakdown (detection + field accuracy)
+    by_type = {}
+    for p, g in matches:
+        # Use ground truth type if available, else predicted type
+        eq_type = (g.get("equipment_type") if g else None) or (p.get("equipment_type") if p else "unknown")
+        if eq_type not in by_type:
+            by_type[eq_type] = {
+                "expected": 0,
+                "found": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "field_correct": {"model_number": 0, "serial_number": 0, "manufacture_date": 0},
+                "field_total": {"model_number": 0, "serial_number": 0, "manufacture_date": 0},
+            }
+
+        if g:
+            by_type[eq_type]["expected"] += 1
+        if p and g:
+            by_type[eq_type]["tp"] += 1
+            by_type[eq_type]["found"] += 1
+            # Track field accuracy for matched pairs
+            for field in ["model_number", "serial_number", "manufacture_date"]:
+                by_type[eq_type]["field_total"][field] += 1
+                if eval_field(p.get(field), g.get(field)):
+                    by_type[eq_type]["field_correct"][field] += 1
+        elif p and not g:
+            by_type[eq_type]["fp"] += 1
+            by_type[eq_type]["found"] += 1
+        elif not p and g:
+            by_type[eq_type]["fn"] += 1
+
+    # Compute field accuracy percentages per type
+    for eq_type, data in by_type.items():
+        data["field_accuracy"] = {}
+        for field in ["model_number", "serial_number", "manufacture_date"]:
+            if data["field_total"][field] > 0:
+                data["field_accuracy"][field] = data["field_correct"][field] / data["field_total"][field]
+            else:
+                data["field_accuracy"][field] = None
+
     return {
         "visit_id": visit_dir.name,
         "predicted_count": len(predicted),
@@ -116,6 +190,7 @@ def eval_visit(visit_dir: Path) -> dict:
         "precision": precision,
         "recall": recall,
         "field_accuracy": field_accuracy,
+        "by_equipment_type": by_type,
         "matches": [
             {
                 "predicted": p,
@@ -132,9 +207,9 @@ def eval_visit(visit_dir: Path) -> dict:
 
 def aggregate_results(visit_results: list[dict]) -> dict:
     """Aggregate metrics across all visits."""
-    total_tp = sum(v.get("true_positives", 0) for v in visit_results if "error" not in v)
-    total_fp = sum(v.get("false_positives", 0) for v in visit_results if "error" not in v)
-    total_fn = sum(v.get("false_negatives", 0) for v in visit_results if "error" not in v)
+    total_tp = sum(v.get("true_positives", 0) for v in visit_results)
+    total_fp = sum(v.get("false_positives", 0) for v in visit_results)
+    total_fn = sum(v.get("false_negatives", 0) for v in visit_results)
 
     precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else None
     recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else None
@@ -148,8 +223,6 @@ def aggregate_results(visit_results: list[dict]) -> dict:
     }
 
     for v in visit_results:
-        if "error" in v:
-            continue
         for match in v.get("matches", []):
             if match["field_correct"]:
                 for field, correct in match["field_correct"].items():
@@ -164,15 +237,50 @@ def aggregate_results(visit_results: list[dict]) -> dict:
         else:
             field_accuracy[field] = None
 
+    # Aggregate by equipment type
+    by_type = {}
+    for v in visit_results:
+        for eq_type, data in v.get("by_equipment_type", {}).items():
+            if eq_type not in by_type:
+                by_type[eq_type] = {
+                    "expected": 0,
+                    "found": 0,
+                    "tp": 0,
+                    "fp": 0,
+                    "fn": 0,
+                    "field_correct": {"model_number": 0, "serial_number": 0, "manufacture_date": 0},
+                    "field_total": {"model_number": 0, "serial_number": 0, "manufacture_date": 0},
+                }
+            by_type[eq_type]["expected"] += data["expected"]
+            by_type[eq_type]["found"] += data["found"]
+            by_type[eq_type]["tp"] += data["tp"]
+            by_type[eq_type]["fp"] += data["fp"]
+            by_type[eq_type]["fn"] += data["fn"]
+            for field in ["model_number", "serial_number", "manufacture_date"]:
+                by_type[eq_type]["field_correct"][field] += data["field_correct"][field]
+                by_type[eq_type]["field_total"][field] += data["field_total"][field]
+
+    # Compute precision, recall, field accuracy per type
+    for eq_type, data in by_type.items():
+        tp, fp, fn = data["tp"], data["fp"], data["fn"]
+        data["precision"] = tp / (tp + fp) if (tp + fp) > 0 else None
+        data["recall"] = tp / (tp + fn) if (tp + fn) > 0 else None
+        data["field_accuracy"] = {}
+        for field in ["model_number", "serial_number", "manufacture_date"]:
+            if data["field_total"][field] > 0:
+                data["field_accuracy"][field] = data["field_correct"][field] / data["field_total"][field]
+            else:
+                data["field_accuracy"][field] = None
+
     return {
         "total_visits": len(visit_results),
-        "visits_with_errors": sum(1 for v in visit_results if "error" in v),
         "total_true_positives": total_tp,
         "total_false_positives": total_fp,
         "total_false_negatives": total_fn,
         "precision": precision,
         "recall": recall,
         "field_accuracy": field_accuracy,
+        "by_equipment_type": by_type,
     }
 
 
@@ -184,20 +292,26 @@ def main():
     visit_dirs = sorted([d for d in photos_dir.iterdir() if d.is_dir()])
 
     visit_results = []
+    skipped = 0
     for visit_dir in visit_dirs:
         result = eval_visit(visit_dir)
+
+        if result is None:
+            skipped += 1
+            continue
+
         visit_results.append(result)
 
         # Print per-visit summary
-        if "error" in result:
-            print(f"{result.get('visit_id', visit_dir.name)}: {result['error']}")
+        p = result["precision"]
+        r = result["recall"]
+        if p is not None and r is not None:
+            print(f"{result['visit_id']}: P={p:.0%} R={r:.0%} (pred={result['predicted_count']}, gt={result['ground_truth_count']})")
         else:
-            p = result["precision"]
-            r = result["recall"]
-            if p is not None:
-                print(f"{result['visit_id']}: P={p:.0%} R={r:.0%} (pred={result['predicted_count']}, gt={result['ground_truth_count']})")
-            else:
-                print(f"{result['visit_id']}: No equipment (pred={result['predicted_count']}, gt={result['ground_truth_count']})")
+            print(f"{result['visit_id']}: No equipment (pred={result['predicted_count']}, gt={result['ground_truth_count']})")
+
+    if skipped > 0:
+        print(f"\n(Skipped {skipped} visits missing output.json or groundtruth.json)")
 
     # Aggregate
     agg = aggregate_results(visit_results)
@@ -205,7 +319,7 @@ def main():
     print("\n" + "="*50)
     print("AGGREGATE RESULTS")
     print("="*50)
-    print(f"Visits: {agg['total_visits']} ({agg['visits_with_errors']} with errors)")
+    print(f"Visits: {agg['total_visits']}")
     print(f"Equipment: TP={agg['total_true_positives']}, FP={agg['total_false_positives']}, FN={agg['total_false_negatives']}")
     if agg["precision"] is not None:
         print(f"Precision: {agg['precision']:.1%}")

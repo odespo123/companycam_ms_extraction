@@ -1,0 +1,186 @@
+{
+  "visit_id": "710580957 - 105_Fox_Glove_Lane - 2025-07-15",
+  "per_image": [
+    {
+      "image": "01_093543_2430352179.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "TUD2B080A9V3VBB",
+          "serial_number": "164944D11G",
+          "manufacture_date": "12/2016"
+        }
+      ]
+    },
+    {
+      "image": "02_093535_2430351535.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_093512_2430349403.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_093507_2430348797.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_093459_2430347968.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_093447_2430346817.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_093442_2430346264.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_093417_2430343748.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_093335_2430339945.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_093249_2430335672.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_093234_2430334497.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_093207_2430331683.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_093151_2430330261.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_093131_2430328354.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCB004DS3HCAA",
+          "serial_number": "163240115G",
+          "manufacture_date": "8/2016"
+        }
+      ]
+    },
+    {
+      "image": "15_093036_2430323053.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_093007_2430320205.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_092959_2430319500.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_091910_2430259660.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_091848_2430257171.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_091842_2430256571.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_091552_2430238990.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_091257_2430222939.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_091243_2430221565.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_091120_2430215018.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_091111_2430213431.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_091045_2430211525.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_090728_2430194793.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_090617_2430188159.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTX8036A1000BA",
+          "serial_number": "16305XYY2F",
+          "manufacture_date": "7/2016"
+        }
+      ]
+    },
+    {
+      "image": "29_090441_2430179799.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_090440_2430179661.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_090427_2430178514.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_090119_2430163272.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_090117_2430163187.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_090107_2430162307.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35_090100_2430161762.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "furnace",
+      "model_number": "TUD2B080A9V3VBB",
+      "serial_number": "164944D11G",
+      "manufacture_date": "12/2016"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB004DS3HCAA",
+      "serial_number": "163240115G",
+      "manufacture_date": "8/2016"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8036A1000BA",
+      "serial_number": "16305XYY2F",
+      "manufacture_date": "7/2016"
+    }
+  ]
+}

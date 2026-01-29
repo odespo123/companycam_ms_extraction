@@ -1,0 +1,119 @@
+{
+  "visit_id": "710893255 - 3_BRENTWOOD_DR - 2025-07-03",
+  "per_image": [
+    {
+      "image": "01_140551_2406012913.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_135842_2406012232.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_135735_2406011443.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_135723_2406011117.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_135721_2406010886.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_135713_2406010330.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_135649_2405948256.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_135612_2405947670.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_135611_2405864002.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_135605_2405863340.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "AP3080021B",
+          "serial_number": "W11152701873"
+        }
+      ]
+    },
+    {
+      "image": "11_135500_2405859791.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_135500_2405861618.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_134836_2405859319.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_134814_2405858268.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_134636_2405857591.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_134626_2405855369.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_134615_2405854703.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_134130_2405711904.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_133856_2405700707.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_133812_2405696675.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_133809_2405695927.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "YHE30B21SA",
+          "serial_number": "W1A7360254",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "22_133405_2405674665.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "AP3080021B",
+      "serial_number": "W11152701873"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "YHE30B21SA",
+      "serial_number": "W1A7360254",
+      "manufacture_date": null
+    }
+  ]
+}

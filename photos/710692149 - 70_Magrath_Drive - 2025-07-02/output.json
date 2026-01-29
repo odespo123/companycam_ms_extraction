@@ -1,0 +1,52 @@
+{
+  "visit_id": "710692149 - 70_Magrath_Drive - 2025-07-02",
+  "per_image": [
+    {
+      "image": "01_151543_2402928790.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_151444_2402924325.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_151259_2402915702.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_151139_2402909353.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_151139_2402909548.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_151044_2402906262.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "FEM4X3600BL09E",
+          "serial_number": "F212037019",
+          "manufacture_date": "MAY 2021"
+        }
+      ]
+    },
+    {
+      "image": "07_151021_2402903001.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_150825_2402894998.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "FEM4X3600BL09E",
+      "serial_number": "F212037019",
+      "manufacture_date": "MAY 2021"
+    }
+  ]
+}

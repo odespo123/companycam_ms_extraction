@@ -1,0 +1,153 @@
+{
+  "visit_id": "713640830 - 16305_Coose_Hollow_Drive - 2025-07-17",
+  "per_image": [
+    {
+      "image": "01_181453_2440008222.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_181435_2440008245.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_181426_2440008261.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_174426_2439936443.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_165654_2439808185.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_165652_2439808081.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_165636_2439807251.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_165624_2439806718.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_165622_2439806570.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_165609_2439805917.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_164902_2439786431.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_164858_2439785551.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_164857_2439784858.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_164853_2439784532.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_164802_2439782077.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "RA1442BJ1NA",
+          "serial_number": "W281640010",
+          "manufacture_date": "07/2016"
+        }
+      ]
+    },
+    {
+      "image": "16_155516_2439595543.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_155042_2439576899.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_155036_2439576615.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_155000_2439574157.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_154828_2439568172.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_154808_2439567948.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_154800_2439566866.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_154755_2439566592.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_154750_2439566244.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_154747_2439564901.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_154313_2439545813.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_154302_2439545045.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "RHP4821STANJA",
+          "serial_number": "W091607918",
+          "manufacture_date": "03/2016"
+        }
+      ]
+    },
+    {
+      "image": "28_154252_2439544199.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_154249_2439544042.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_154111_2439537816.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1442BJ1NA",
+      "serial_number": "W281640010",
+      "manufacture_date": "07/2016"
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "RHP4821STANJA",
+      "serial_number": "W091607918",
+      "manufacture_date": "03/2016"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "visit_id": "712411725 - 1804_Southwest_Gosford_Avenue - 2025-07-14",
+  "per_image": [
+    {
+      "image": "01_133148_2428280867.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_131244_2428173342.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCB006DS3HCAA",
+          "serial_number": "201132EK5G",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "03_130430_2428124473.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTX8048B1000BA",
+          "serial_number": "194243W52F",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "04_130253_2428127440.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTX8048B1000BA",
+          "serial_number": "194243W52F",
+          "manufacture_date": "10/2019"
+        }
+      ]
+    },
+    {
+      "image": "05_125919_2428125220.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_124509_2428024622.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_124454_2428115676.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_124005_2428015141.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB006DS3HCAA",
+      "serial_number": "201132EK5G",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8048B1000BA",
+      "serial_number": "194243W52F",
+      "manufacture_date": "10/2019"
+    }
+  ]
+}

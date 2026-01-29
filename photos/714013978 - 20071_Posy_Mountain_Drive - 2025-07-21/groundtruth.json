@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4048N1000AA",
+      "serial_number": "233715473F",
+      "manufacture_date": "9/2023"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCC009DS3HCBB",
+      "serial_number": "24042K0CCG",
+      "manufacture_date": "1/2024"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:30:29.106660",
+    "source_images": [
+      {
+        "image": "25_110516_2445778238.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR4048N1000AA",
+            "serial_number": "233715473F",
+            "manufacture_date": "9/2023"
+          }
+        ]
+      },
+      {
+        "image": "35_104533_2445666598.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCC009DS3HCBB",
+            "serial_number": "24042K0CCG",
+            "manufacture_date": "1/2024"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CH35-48B-2F-3",
+      "serial_number": "6019C13115",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "ML180UH070P36A-55",
+      "serial_number": "1719B38586",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CHX35-30A-6F-10",
+      "serial_number": "1522J28470",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "14ACXS042-230A20",
+      "serial_number": "1919A19178",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "14ACXS030-230A19",
+      "serial_number": "1919F03982",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:06:08.373584",
+    "source_images": [
+      {
+        "image": "01_090459_2415211735.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "CH35-48B-2F-3",
+            "serial_number": "6019C13115",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "02_090353_2415206225.jpg",
+        "type": "furnace",
+        "extractions": [
+          {
+            "equipment_type": "furnace",
+            "model_number": "ML180UH070P36A-55",
+            "serial_number": "1719B38586",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "03_090248_2415200856.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "CHX35-30A-6F-10",
+            "serial_number": "1522J28470",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "20_081440_2414992056.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "14ACXS042-230A20",
+            "serial_number": "1919A19178",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "21_081435_2414991391.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "14ACXS030-230A19",
+            "serial_number": "1919F03982",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "4TEE3C04A1000AA",
+      "serial_number": "9252KTA2V",
+      "manufacture_date": "6/2009"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TWZ0036A1000AB",
+      "serial_number": "92447DG1F",
+      "manufacture_date": "6/2009"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:27:43.872735",
+    "source_images": [
+      {
+        "image": "09_140220_2476107650.jpg",
+        "type": "air handler",
+        "extractions": [
+          {
+            "equipment_type": "air_handler",
+            "model_number": "4TEE3C04A1000AA",
+            "serial_number": "9252KTA2V",
+            "manufacture_date": "6/2009"
+          }
+        ]
+      },
+      {
+        "image": "15_134711_2476028309.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TWZ0036A1000AB",
+            "serial_number": "92447DG1F",
+            "manufacture_date": "6/2009"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

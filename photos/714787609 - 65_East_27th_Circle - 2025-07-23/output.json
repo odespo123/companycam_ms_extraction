@@ -1,0 +1,319 @@
+{
+  "visit_id": "714787609 - 65_East_27th_Circle - 2025-07-23",
+  "per_image": [
+    {
+      "image": "01_185231_2455161735.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_185228_2455161689.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_185225_2455161641.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_185221_2455161461.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_185134_2455160454.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_185131_2455160431.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_185107_2455159753.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_185105_2455159675.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_185103_2455159643.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_185101_2455159598.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_185026_2455158634.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "CB29M-31-1P",
+          "serial_number": "5800G 02523",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "12_185011_2455158454.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_185004_2455158397.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_184922_2455157805.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_184852_2455156325.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_184826_2455155731.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_184659_2455155602.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_184243_2455145966.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "C33-30B-2F-1",
+          "serial_number": "6010H25739",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "19_184241_2455145779.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CX35-36B-6F-1",
+          "serial_number": "6010H25739",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "20_184231_2455145605.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_184229_2455145393.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_184224_2455145281.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_184217_2455145105.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_184158_2455144356.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_184147_2455143948.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "SLP99UH090V36C-02",
+          "serial_number": "6014M16709",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "26_184128_2455143695.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "C33-38B-2F-6",
+          "serial_number": "6010H25739",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "27_184126_2455143441.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_183625_2455134594.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_183222_2455127787.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_183119_2455125303.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_183118_2455125250.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_182443_2455113333.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_182253_2455109740.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_182248_2455109517.jpg",
+      "equipment": []
+    },
+    {
+      "image": "35_182152_2455107660.jpg",
+      "equipment": []
+    },
+    {
+      "image": "36_181726_2455098944.jpg",
+      "equipment": []
+    },
+    {
+      "image": "37_181717_2455098211.jpg",
+      "equipment": []
+    },
+    {
+      "image": "38_181051_2455088987.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "XC17-036-230-03",
+          "serial_number": "5811B07520",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "39_181045_2455086262.jpg",
+      "equipment": []
+    },
+    {
+      "image": "40_180140_2455065126.jpg",
+      "equipment": []
+    },
+    {
+      "image": "41_180107_2455064506.jpg",
+      "equipment": []
+    },
+    {
+      "image": "42_175959_2455064408.jpg",
+      "equipment": []
+    },
+    {
+      "image": "43_175753_2455064294.jpg",
+      "equipment": []
+    },
+    {
+      "image": "44_175730_2455051713.jpg",
+      "equipment": []
+    },
+    {
+      "image": "45_175708_2455051491.jpg",
+      "equipment": []
+    },
+    {
+      "image": "46_175655_2455050712.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "10HPB24-10P",
+          "serial_number": "5800G50172",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "47_175654_2455050545.jpg",
+      "equipment": []
+    },
+    {
+      "image": "48_175652_2455050436.jpg",
+      "equipment": []
+    },
+    {
+      "image": "49_175651_2455050324.jpg",
+      "equipment": []
+    },
+    {
+      "image": "50_175105_2455047571.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "10HPB24-10P",
+          "serial_number": "5800G 50172",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "51_175100_2455047494.jpg",
+      "equipment": []
+    },
+    {
+      "image": "52_174933_2455023690.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "CB29M-31-1P",
+      "serial_number": "5800G 02523",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "C33-30B-2F-1",
+      "serial_number": "6010H25739",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CX35-36B-6F-1",
+      "serial_number": "6010H25739",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "SLP99UH090V36C-02",
+      "serial_number": "6014M16709",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "C33-38B-2F-6",
+      "serial_number": "6010H25739",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "XC17-036-230-03",
+      "serial_number": "5811B07520",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "10HPB24-10P",
+      "serial_number": "5800G50172",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "10HPB24-10P",
+      "serial_number": "5800G 50172",
+      "manufacture_date": null
+    }
+  ]
+}

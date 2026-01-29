@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4030N1000AA",
+      "serial_number": "23502N5LGF",
+      "manufacture_date": "12/2023"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4036N1000BA",
+      "serial_number": "23495MLYGF",
+      "manufacture_date": "12/2023"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:32:04.629129",
+    "source_images": [
+      {
+        "image": "19_111420_2441535395.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR4030N1000AA",
+            "serial_number": "23502N5LGF",
+            "manufacture_date": "12/2023"
+          }
+        ]
+      },
+      {
+        "image": "32_110237_2441457634.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR4036N1000BA",
+            "serial_number": "23495MLYGF",
+            "manufacture_date": "12/2023"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX6030J1000CA",
+      "serial_number": "22231H8H5F",
+      "manufacture_date": "6/2022"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:07:35.657636",
+    "source_images": [
+      {
+        "image": "26_083048_2411530969.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTX6030J1000CA",
+            "serial_number": "22231H8H5F",
+            "manufacture_date": "6/2022"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

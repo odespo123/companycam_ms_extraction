@@ -1,0 +1,65 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCB004DS3HCAA",
+      "serial_number": "191940AC5G",
+      "manufacture_date": "5/2019"
+    },
+    {
+      "equipment_type": "water_heater",
+      "model_number": "RG240T6N",
+      "serial_number": "PM40573156",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTR4036L1000AA",
+      "serial_number": "19202U493F",
+      "manufacture_date": "5/2019"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-29T11:29:52.074261",
+    "source_images": [
+      {
+        "image": "08_085421_2433755400.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "4TXCB004DS3HCAA",
+            "serial_number": "191940AC5G",
+            "manufacture_date": "5/2019"
+          }
+        ]
+      },
+      {
+        "image": "13_085350_2433753072.jpg",
+        "type": "water heater",
+        "extractions": [
+          {
+            "equipment_type": "water_heater",
+            "model_number": "RG240T6N",
+            "serial_number": "PM40573156",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "30_082447_2433626186.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTR4036L1000AA",
+            "serial_number": "19202U493F",
+            "manufacture_date": "5/2019"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

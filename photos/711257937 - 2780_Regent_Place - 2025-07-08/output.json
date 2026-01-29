@@ -1,0 +1,182 @@
+{
+  "visit_id": "711257937 - 2780_Regent_Place - 2025-07-08",
+  "per_image": [
+    {
+      "image": "01_093537_2411847529.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_093350_2411837239.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_093344_2411836934.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_093142_2411825406.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_093049_2411819836.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_093027_2411818128.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_092547_2411817381.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_090809_2411816978.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "DB03476P42",
+          "serial_number": "2213600584405J92",
+          "manufacture_date": "16-May-22"
+        }
+      ]
+    },
+    {
+      "image": "09_090808_2411702012.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "D803476P42",
+          "serial_number": "2213600584405J92",
+          "manufacture_date": "16-May-22"
+        }
+      ]
+    },
+    {
+      "image": "10_090805_2411701301.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "D803476P42",
+          "serial_number": "2213600584405J92",
+          "manufacture_date": "16-May-22"
+        }
+      ]
+    },
+    {
+      "image": "11_090513_2411700863.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_090511_2411700414.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_090507_2411700026.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_090506_2411699130.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_090212_2411697297.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_090210_2411671160.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_090209_2411670502.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_090208_2411670010.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_085736_2411669420.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_084640_2411599462.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_084638_2411598839.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_084637_2411598293.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_084634_2411598065.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "TXCB004DS3HCBV",
+          "serial_number": "92A69CV",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "24_084631_2411597953.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_083656_2411597730.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_083048_2411530969.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "4TTX6030J1000CA",
+          "serial_number": "22231H8H5F",
+          "manufacture_date": "6/2022"
+        }
+      ]
+    },
+    {
+      "image": "27_083040_2411530409.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_082716_2411517999.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_082535_2411511687.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "DB03476P42",
+      "serial_number": "2213600584405J92",
+      "manufacture_date": "16-May-22"
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "D803476P42",
+      "serial_number": "2213600584405J92",
+      "manufacture_date": "16-May-22"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "TXCB004DS3HCBV",
+      "serial_number": "92A69CV",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX6030J1000CA",
+      "serial_number": "22231H8H5F",
+      "manufacture_date": "6/2022"
+    }
+  ]
+}

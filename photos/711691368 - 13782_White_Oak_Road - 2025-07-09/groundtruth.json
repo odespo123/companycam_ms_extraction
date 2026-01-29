@@ -1,0 +1,83 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CH33-31A-2F-3",
+      "serial_number": "6013K03843",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CE48D44-210L-015",
+      "serial_number": "D09-00017129",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "XC14-036-230-03",
+      "serial_number": "5809H10532",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "XC14-024-230-02",
+      "serial_number": "5809F23557",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:08:36.142750",
+    "source_images": [
+      {
+        "image": "15_141708_2417057029.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "CH33-31A-2F-3",
+            "serial_number": "6013K03843",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "38_135914_2416949111.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "CE48D44-210L-015",
+            "serial_number": "D09-00017129",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "42_135506_2416923018.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "XC14-036-230-03",
+            "serial_number": "5809H10532",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "46_135311_2416908241.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "XC14-024-230-02",
+            "serial_number": "5809F23557",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

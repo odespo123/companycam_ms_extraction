@@ -1,0 +1,230 @@
+{
+  "visit_id": "710873103 - 8369_Buenning_Lane - 2025-07-09",
+  "per_image": [
+    {
+      "image": "01_161342_2417628602.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_155437_2417558359.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_153131_2417445113.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "51-101920-26-00",
+          "serial_number": "H019DI",
+          "manufacture_date": "08/29/2016"
+        }
+      ]
+    },
+    {
+      "image": "04_153104_2417443591.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_152910_2417434871.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_152907_2417434456.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_152321_2417408788.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_152230_2417404891.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_152222_2417404132.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_151628_2417377436.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_151621_2417376650.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_151506_2417369952.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_151501_2417369526.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_151418_2417366298.jpg",
+      "equipment": [
+        {
+          "equipment_type": "furnace",
+          "model_number": "RGEA14048AJT101AA",
+          "serial_number": "F461600030",
+          "manufacture_date": "11/2016"
+        }
+      ]
+    },
+    {
+      "image": "15_151233_2417358839.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_150728_2417333208.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_150723_2417332646.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_150719_2417332302.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_150614_2417326116.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_094545_2415440929.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_093336_2415378108.jpg",
+      "equipment": []
+    },
+    {
+      "image": "22_092001_2415308106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "23_092000_2415307637.jpg",
+      "equipment": []
+    },
+    {
+      "image": "24_091959_2415307361.jpg",
+      "equipment": []
+    },
+    {
+      "image": "25_091958_2415295627.jpg",
+      "equipment": []
+    },
+    {
+      "image": "26_091957_2415295232.jpg",
+      "equipment": []
+    },
+    {
+      "image": "27_091955_2415294405.jpg",
+      "equipment": []
+    },
+    {
+      "image": "28_091954_2415293721.jpg",
+      "equipment": []
+    },
+    {
+      "image": "29_091942_2415293038.jpg",
+      "equipment": []
+    },
+    {
+      "image": "30_091940_2415292672.jpg",
+      "equipment": []
+    },
+    {
+      "image": "31_091502_2415266304.jpg",
+      "equipment": []
+    },
+    {
+      "image": "32_091252_2415262315.jpg",
+      "equipment": []
+    },
+    {
+      "image": "33_091250_2415255457.jpg",
+      "equipment": []
+    },
+    {
+      "image": "34_091056_2415244143.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "RGEA14048AJT101AA",
+          "serial_number": "F461600030",
+          "manufacture_date": "11/2016"
+        }
+      ]
+    },
+    {
+      "image": "35_091051_2415243535.jpg",
+      "equipment": []
+    },
+    {
+      "image": "36_091044_2415242841.jpg",
+      "equipment": []
+    },
+    {
+      "image": "37_091043_2415242210.jpg",
+      "equipment": []
+    },
+    {
+      "image": "38_091043_2415242487.jpg",
+      "equipment": []
+    },
+    {
+      "image": "39_090804_2415228765.jpg",
+      "equipment": []
+    },
+    {
+      "image": "40_090803_2415228375.jpg",
+      "equipment": []
+    },
+    {
+      "image": "41_085534_2415169962.jpg",
+      "equipment": []
+    },
+    {
+      "image": "42_085533_2415169106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "43_085532_2415168606.jpg",
+      "equipment": []
+    },
+    {
+      "image": "44_085528_2415165702.jpg",
+      "equipment": []
+    },
+    {
+      "image": "45_085528_2415166413.jpg",
+      "equipment": []
+    },
+    {
+      "image": "46_085526_2415165355.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "air_handler",
+      "model_number": "51-101920-26-00",
+      "serial_number": "H019DI",
+      "manufacture_date": "08/29/2016"
+    },
+    {
+      "equipment_type": "furnace",
+      "model_number": "RGEA14048AJT101AA",
+      "serial_number": "F461600030",
+      "manufacture_date": "11/2016"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RGEA14048AJT101AA",
+      "serial_number": "F461600030",
+      "manufacture_date": "11/2016"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CNPVP3014ALAAAAA",
+      "serial_number": "2615X35905",
+      "manufacture_date": "Jun-2015"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "114CNA024-A",
+      "serial_number": "2715E00036",
+      "manufacture_date": "JUN 2015"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:07:04.302624",
+    "source_images": [
+      {
+        "image": "17_151232_2465817226.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "CNPVP3014ALAAAAA",
+            "serial_number": "2615X35905",
+            "manufacture_date": "Jun-2015"
+          }
+        ]
+      },
+      {
+        "image": "27_144215_2465680176.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "114CNA024-A",
+            "serial_number": "2715E00036",
+            "manufacture_date": "JUN 2015"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

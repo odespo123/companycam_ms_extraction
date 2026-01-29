@@ -1,0 +1,47 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "XAFB30CXXN1A",
+      "serial_number": "W2N2284631",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4SCU13LE130P-2",
+      "serial_number": "1609501193",
+      "manufacture_date": null
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:06:54.487881",
+    "source_images": [
+      {
+        "image": "21_091242_2474491839.jpg",
+        "type": "evaporator coil",
+        "extractions": [
+          {
+            "equipment_type": "evaporator_coil",
+            "model_number": "XAFB30CXXN1A",
+            "serial_number": "W2N2284631",
+            "manufacture_date": null
+          }
+        ]
+      },
+      {
+        "image": "51_081609_2474242373.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4SCU13LE130P-2",
+            "serial_number": "1009B01193",
+            "manufacture_date": null
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

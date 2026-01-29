@@ -1,0 +1,64 @@
+{
+  "visit_id": "715411134 - 603_N_5TH_ST - 2025-07-30",
+  "per_image": [
+    {
+      "image": "01_121159_2471954106.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_121120_2471950291.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_121036_2471946135.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_120307_2471902870.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_115943_2471884731.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_115939_2471884376.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_115427_2471856005.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_115415_2471854993.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_115413_2471854798.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_115410_2471854510.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_115408_2471854368.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "PRPGE1430-072EP-1A",
+          "serial_number": "1620E09509",
+          "manufacture_date": null
+        }
+      ]
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "PRPGE1430-072EP-1A",
+      "serial_number": "1620E09509",
+      "manufacture_date": null
+    }
+  ]
+}

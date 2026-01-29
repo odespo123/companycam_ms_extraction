@@ -1,0 +1,117 @@
+{
+  "visit_id": "715339411 - 3005_Setter_Street - 2025-07-26",
+  "per_image": [
+    {
+      "image": "01_175937_2462760748.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_174426_2462760693.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_174355_2462762545.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "ML14XP1-048-230A01",
+          "serial_number": "1919A55232",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "04_172723_2462743214.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_172620_2462742739.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_172558_2462742543.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_172535_2462742383.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_172516_2462742180.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_171315_2462735415.jpg",
+      "equipment": [
+        {
+          "equipment_type": "air_handler",
+          "model_number": "CBA25UH-048-230-01",
+          "serial_number": "1519C19160",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "10_171231_2462734869.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_171223_2462734788.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_171218_2462734751.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_171147_2462734657.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_171045_2462734064.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_170858_2462732694.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_170829_2462732346.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_170738_2462731818.jpg",
+      "equipment": []
+    },
+    {
+      "image": "18_170734_2462731767.jpg",
+      "equipment": []
+    },
+    {
+      "image": "19_170702_2462731643.jpg",
+      "equipment": []
+    },
+    {
+      "image": "20_170555_2462730872.jpg",
+      "equipment": []
+    },
+    {
+      "image": "21_170521_2462730444.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "ML14XP1-048-230A01",
+      "serial_number": "1919A55232",
+      "manufacture_date": null
+    },
+    {
+      "equipment_type": "air_handler",
+      "model_number": "CBA25UH-048-230-01",
+      "serial_number": "1519C19160",
+      "manufacture_date": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "4TTX8048B1000BA",
+      "serial_number": "22113NBC5F",
+      "manufacture_date": "3/2022"
+    }
+  ],
+  "_metadata": {
+    "generated_by": "generate_groundtruth.py",
+    "generated_at": "2026-01-28T17:07:26.130459",
+    "source_images": [
+      {
+        "image": "16_090202_2452255617.jpg",
+        "type": "outdoor condensor",
+        "extractions": [
+          {
+            "equipment_type": "outdoor_condenser",
+            "model_number": "4TTX8048B1000BA",
+            "serial_number": "22113NBC5F",
+            "manufacture_date": "3/2022"
+          }
+        ]
+      }
+    ],
+    "status": "NEEDS_REVIEW"
+  }
+}

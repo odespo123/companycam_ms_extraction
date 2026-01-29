@@ -1,0 +1,101 @@
+{
+  "visit_id": "715745021 - 591_Westfield_Street - 2025-07-30",
+  "per_image": [
+    {
+      "image": "01_185817_2473668440.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_185816_2473668354.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_185616_2473665367.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_185613_2473665302.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_185142_2473658470.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_183836_2473638175.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_183800_2473637202.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "RCF3617STAMCA",
+          "serial_number": "W062019657",
+          "manufacture_date": "02/2020"
+        }
+      ]
+    },
+    {
+      "image": "08_183758_2473637085.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_183752_2473636877.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_183520_2473633011.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_183511_2473632416.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "RA1436AJ1NA",
+          "serial_number": "W082006609",
+          "manufacture_date": "02/2020"
+        }
+      ]
+    },
+    {
+      "image": "12_183331_2473629349.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_183328_2473629204.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_183100_2473625121.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_182958_2473623392.jpg",
+      "equipment": []
+    },
+    {
+      "image": "16_182931_2473622215.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_182922_2473621956.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "RCF3617STAMCA",
+      "serial_number": "W062019657",
+      "manufacture_date": "02/2020"
+    },
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "RA1436AJ1NA",
+      "serial_number": "W082006609",
+      "manufacture_date": "02/2020"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "visit_id": "714778285 - 400_Brentwood_Drive - 2025-07-24",
+  "per_image": [
+    {
+      "image": "01_131615_2457462203.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_131614_2457461852.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_120713_2457084712.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_120031_2457046531.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_115138_2456997832.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_115137_2456997762.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_115018_2456990951.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CNPHP2417ALABAA",
+          "serial_number": "2805X30137",
+          "manufacture_date": "13 Jul 2005"
+        }
+      ]
+    },
+    {
+      "image": "08_115017_2456990872.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "CNPHP4221ATAABAA",
+          "serial_number": "2909X38741",
+          "manufacture_date": "13 Jul 2009"
+        }
+      ]
+    },
+    {
+      "image": "09_114935_2456987092.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_114935_2456987194.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_114211_2456946271.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_114209_2456946162.jpg",
+      "equipment": []
+    },
+    {
+      "image": "13_113742_2456921922.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_113741_2456921856.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_113740_2456921713.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CNPHP2417ALABAA",
+      "serial_number": "2805X30137",
+      "manufacture_date": "13 Jul 2005"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "CNPHP4221ATAABAA",
+      "serial_number": "2909X38741",
+      "manufacture_date": "13 Jul 2009"
+    }
+  ]
+}

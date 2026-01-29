@@ -1,0 +1,75 @@
+{
+  "visit_id": "715986785 - 8775_Apple_Glen - 2025-07-30",
+  "per_image": [
+    {
+      "image": "01_133215_2472433851.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_133213_2472433682.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_133054_2472433404.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_133051_2472433300.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_133050_2472433105.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_133048_2472432949.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_133044_2472432410.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_133044_2472432799.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_133042_2472432695.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_133039_2472418745.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_133030_2472417976.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCC009DS3HCAA",
+          "serial_number": "22092G93CG",
+          "manufacture_date": "3/2022"
+        }
+      ]
+    },
+    {
+      "image": "12_133029_2472417655.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "4TXCC009DS3HCAA",
+          "serial_number": "22092G93CG",
+          "manufacture_date": "3/2022"
+        }
+      ]
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "4TXCC009DS3HCAA",
+      "serial_number": "22092G93CG",
+      "manufacture_date": "3/2022"
+    }
+  ]
+}

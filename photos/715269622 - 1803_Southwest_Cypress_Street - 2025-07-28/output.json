@@ -1,0 +1,101 @@
+{
+  "visit_id": "715269622 - 1803_Southwest_Cypress_Street - 2025-07-28",
+  "per_image": [
+    {
+      "image": "01_120442_2464854495.jpg",
+      "equipment": []
+    },
+    {
+      "image": "02_115111_2464785712.jpg",
+      "equipment": []
+    },
+    {
+      "image": "03_115108_2464785014.jpg",
+      "equipment": []
+    },
+    {
+      "image": "04_114821_2464770530.jpg",
+      "equipment": []
+    },
+    {
+      "image": "05_114814_2464769748.jpg",
+      "equipment": []
+    },
+    {
+      "image": "06_114543_2464756801.jpg",
+      "equipment": []
+    },
+    {
+      "image": "07_114413_2464756151.jpg",
+      "equipment": []
+    },
+    {
+      "image": "08_114152_2464736250.jpg",
+      "equipment": []
+    },
+    {
+      "image": "09_114115_2464732971.jpg",
+      "equipment": []
+    },
+    {
+      "image": "10_114046_2464730591.jpg",
+      "equipment": []
+    },
+    {
+      "image": "11_113915_2464722814.jpg",
+      "equipment": []
+    },
+    {
+      "image": "12_113002_2464722589.jpg",
+      "equipment": [
+        {
+          "equipment_type": "outdoor_condenser",
+          "model_number": "UANL-043JAZ",
+          "serial_number": "7841W361200245",
+          "manufacture_date": "08/2012"
+        }
+      ]
+    },
+    {
+      "image": "13_112959_2464693565.jpg",
+      "equipment": []
+    },
+    {
+      "image": "14_112900_2464668966.jpg",
+      "equipment": []
+    },
+    {
+      "image": "15_112841_2464667346.jpg",
+      "equipment": [
+        {
+          "equipment_type": "evaporator_coil",
+          "model_number": "V48H210D756",
+          "serial_number": "7113C11234",
+          "manufacture_date": null
+        }
+      ]
+    },
+    {
+      "image": "16_112835_2464666902.jpg",
+      "equipment": []
+    },
+    {
+      "image": "17_112820_2464665526.jpg",
+      "equipment": []
+    }
+  ],
+  "aggregated": [
+    {
+      "equipment_type": "outdoor_condenser",
+      "model_number": "UANL-043JAZ",
+      "serial_number": "7841W361200245",
+      "manufacture_date": "08/2012"
+    },
+    {
+      "equipment_type": "evaporator_coil",
+      "model_number": "V48H210D756",
+      "serial_number": "7113C11234",
+      "manufacture_date": null
+    }
+  ]
+}
