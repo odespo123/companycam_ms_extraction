@@ -7,6 +7,9 @@ import base64
 import os
 import requests
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.set_page_config(page_title="Equipment Extraction Eval", layout="wide")
 
@@ -14,7 +17,12 @@ PHOTOS_DIR = Path("photos")
 
 # R2 configuration - set R2_PUBLIC_URL in environment or Streamlit secrets
 # Format: https://pub-xxxxx.r2.dev or custom domain
-R2_PUBLIC_URL = os.environ.get("R2_PUBLIC_URL") or st.secrets.get("R2_PUBLIC_URL", None)
+R2_PUBLIC_URL = os.environ.get("R2_PUBLIC_URL")
+if not R2_PUBLIC_URL:
+    try:
+        R2_PUBLIC_URL = st.secrets.get("R2_PUBLIC_URL")
+    except Exception:
+        R2_PUBLIC_URL = None
 
 
 def get_image_url(visit_id: str, image_name: str) -> str | None:
@@ -88,11 +96,11 @@ def render_home(eval_results):
         st.metric("Visits", agg["total_visits"])
     with col2:
         precision = agg["precision"]
-        st.metric("Precision", f"{precision:.1%}" if precision else "N/A",
+        st.metric("Precision", f"{precision:.1%}" if precision is not None else "N/A",
                   help="Of equipment we predicted, how many were correct? Low precision = hallucinations")
     with col3:
         recall = agg["recall"]
-        st.metric("Recall", f"{recall:.1%}" if recall else "N/A",
+        st.metric("Recall", f"{recall:.1%}" if recall is not None else "N/A",
                   help="Of equipment that exists, how many did we find? Low recall = missed equipment")
     with col4:
         st.metric("Equipment Found", agg["total_true_positives"])
@@ -142,7 +150,7 @@ def render_home(eval_results):
     field_cols = st.columns(4)
     for i, (field, acc) in enumerate(agg["field_accuracy"].items()):
         with field_cols[i]:
-            st.metric(field.replace("_", " ").title(), f"{acc:.1%}" if acc else "N/A")
+            st.metric(field.replace("_", " ").title(), f"{acc:.1%}" if acc is not None else "N/A")
 
     # Detection summary
     st.subheader("Detection Summary")
@@ -164,10 +172,10 @@ def render_home(eval_results):
                 col1, col2, col3, col4 = st.columns(4)
                 with col1:
                     p = data.get("precision")
-                    st.metric("Precision", f"{p:.0%}" if p else "N/A")
+                    st.metric("Precision", f"{p:.0%}" if p is not None else "N/A")
                 with col2:
                     r = data.get("recall")
-                    st.metric("Recall", f"{r:.0%}" if r else "N/A")
+                    st.metric("Recall", f"{r:.0%}" if r is not None else "N/A")
                 with col3:
                     st.metric("TP / FP / FN", f"{data['tp']} / {data['fp']} / {data['fn']}")
                 with col4:
@@ -180,7 +188,7 @@ def render_home(eval_results):
                     fcols = st.columns(3)
                     for i, (field, acc) in enumerate(fa.items()):
                         with fcols[i]:
-                            st.metric(field.replace("_", " ").title(), f"{acc:.0%}" if acc else "N/A")
+                            st.metric(field.replace("_", " ").title(), f"{acc:.0%}" if acc is not None else "N/A")
 
                 # Filter links
                 st.caption("View visits:")
@@ -208,11 +216,22 @@ def render_home(eval_results):
 
     st.divider()
 
-    # Filter controls
-    filter_type = st.session_state.get("filter_type")
-    filter_status = st.session_state.get("filter_status")
+    # Categorize visits
+    def is_perfect(visit):
+        p = visit.get("precision")
+        r = visit.get("recall")
+        if visit["ground_truth_count"] == 0 and visit["predicted_count"] == 0:
+            return True
+        if p != 1.0 or r != 1.0:
+            return False
+        # Also check all fields are 100% correct
+        fa = visit.get("field_accuracy", {})
+        for acc in fa.values():
+            if acc is not None and acc != 1.0:
+                return False
+        return True
 
-    # Filter visits if filter is active
+    # Equipment type filter
     def visit_matches_filter(visit, eq_type, status):
         """Check if visit matches the current filter."""
         visit_by_type = visit.get("by_equipment_type", {})
@@ -229,56 +248,129 @@ def render_home(eval_results):
             return type_data["fp"] > 0
         return False
 
-    if filter_type:
-        st.subheader(f"Visits: {filter_type.replace('_', ' ').title()} — {filter_status.title()}")
-        if st.button("Clear filter"):
-            st.session_state.filter_type = None
-            st.session_state.filter_status = None
-            st.rerun()
-        filtered_visits = [v for v in eval_results["per_visit"] if visit_matches_filter(v, filter_type, filter_status)]
-    else:
-        st.subheader("Visits")
-        filtered_visits = eval_results["per_visit"]
+    # Apply filter if active
+    filter_type = st.session_state.get("filter_type")
+    filter_status = st.session_state.get("filter_status")
 
-    for visit in filtered_visits:
-        visit_id = visit["visit_id"]
+    all_visits = eval_results["per_visit"]
+    if filter_type and filter_status:
+        all_visits = [v for v in all_visits if visit_matches_filter(v, filter_type, filter_status)]
 
-        if visit["ground_truth_count"] == 0 and visit["predicted_count"] == 0:
-            status = "✓"
-            summary = "No equipment (correct)"
-        else:
-            p = visit["precision"]
-            r = visit["recall"]
-            if p == 1.0 and r == 1.0:
-                status = "✓"
-            elif p is None:
-                status = "−"
-            else:
-                status = "✗" if p < 1.0 or r < 1.0 else "✓"
-            summary = f"P={p:.0%} R={r:.0%}" if p else "No predictions"
-
-            # Add field accuracy
-            fa = visit.get("field_accuracy", {})
-            field_parts = []
-            for field, acc in fa.items():
-                if acc is not None:
-                    short_name = {"equipment_type": "type", "model_number": "model",
-                                  "serial_number": "serial", "manufacture_date": "date"}[field]
-                    field_parts.append(f"{short_name}={acc:.0%}")
-            if field_parts:
-                summary += f" | {' '.join(field_parts)}"
-
-            summary += f" (pred={visit['predicted_count']}, gt={visit['ground_truth_count']})"
-
-        col1, col2, col3 = st.columns([1, 4, 3])
+        # Show filter indicator
+        col1, col2 = st.columns([4, 1])
         with col1:
-            st.write(status)
+            st.info(f"Filtered: {filter_type.replace('_', ' ').title()} — {filter_status.title()} ({len(all_visits)} visits)")
         with col2:
-            if st.button(visit_id, key=f"btn_{visit_id}", use_container_width=True):
-                st.session_state.selected_visit = visit_id
+            if st.button("Clear filter"):
+                st.session_state.filter_type = None
+                st.session_state.filter_status = None
                 st.rerun()
-        with col3:
-            st.write(summary)
+
+    perfect_visits = [v for v in all_visits if is_perfect(v)]
+    needs_review = [v for v in all_visits if not is_perfect(v)]
+
+    # Progress bar
+    total = len(all_visits)
+    perfect_count = len(perfect_visits)
+    st.progress(perfect_count / total if total > 0 else 0)
+    st.caption(f"{perfect_count}/{total} visits perfect ({perfect_count/total*100:.0f}%)" if total > 0 else "No visits")
+
+    # Tabs
+    tab_review, tab_perfect, tab_all = st.tabs([
+        f"Needs Review ({len(needs_review)})",
+        f"Perfect ({len(perfect_visits)})",
+        f"All ({total})"
+    ])
+
+    def render_visit_grid(visits, key_prefix):
+        """Render visits in a grid with links that open in new tabs."""
+        if not visits:
+            st.write("No visits")
+            return
+
+        cols_per_row = 4
+        for i in range(0, len(visits), cols_per_row):
+            cols = st.columns(cols_per_row)
+            for j, col in enumerate(cols):
+                idx = i + j
+                if idx >= len(visits):
+                    break
+
+                visit = visits[idx]
+                visit_id = visit["visit_id"]
+                p = visit.get("precision")
+                r = visit.get("recall")
+
+                # Determine status and color (must match is_perfect logic)
+                if is_perfect(visit):
+                    status = "✓"
+                    color = "#d4edda"  # green
+                elif p is None:
+                    status = "−"
+                    color = "#e2e3e5"  # gray
+                else:
+                    status = "✗"
+                    color = "#f8d7da"  # red
+
+                with col:
+                    # Card-like container
+                    params = urllib.parse.urlencode({"visit": visit_id})
+
+                    # Short visit ID for display (job number)
+                    short_id = visit_id.split(" - ")[0] if " - " in visit_id else visit_id[:15]
+
+                    # Stats line
+                    if p is not None and r is not None:
+                        stats = f"P={p:.0%} R={r:.0%}"
+                    else:
+                        stats = "No equipment"
+
+                    eq_count = f"{visit['predicted_count']}/{visit['ground_truth_count']}"
+
+                    # Field accuracy line
+                    fa = visit.get("field_accuracy", {})
+                    field_parts = []
+                    for field, acc in fa.items():
+                        if acc is not None:
+                            short_name = {"equipment_type": "type", "model_number": "mod",
+                                          "serial_number": "ser", "manufacture_date": "date"}[field]
+                            field_parts.append(f"{short_name}={acc:.0%}")
+                    field_line = " ".join(field_parts) if field_parts else ""
+
+                    # Ground truth equipment types
+                    by_type = visit.get("by_equipment_type", {})
+                    gt_types = []
+                    for eq_type, data in by_type.items():
+                        if data.get("expected", 0) > 0:
+                            short_type = {"outdoor_condenser": "OC", "air_handler": "AH",
+                                          "evaporator_coil": "EC", "furnace": "FU",
+                                          "water_heater": "WH"}.get(eq_type, eq_type[:2].upper())
+                            gt_types.append(short_type)
+                    gt_line = " ".join(gt_types) if gt_types else "—"
+
+                    # Build card with link
+                    card_content = f'{status} {short_id}<br>'
+                    card_content += f'<span style="font-size: 14px; color: #666;">{stats}</span><br>'
+                    card_content += f'<span style="font-size: 13px; color: #555;">GT: {gt_line} | pred/gt: {eq_count}</span>'
+                    if field_line:
+                        card_content += f'<br><span style="font-size: 12px; color: #666;">{field_line}</span>'
+
+                    st.markdown(
+                        f'''<a href="?{params}" target="_blank" style="text-decoration: none; display: block;">
+                        <div style="background: {color}; padding: 12px; border-radius: 8px; margin-bottom: 8px; color: #333; font-weight: bold; font-size: 16px;">
+                        {card_content}
+                        </div></a>''',
+                        unsafe_allow_html=True
+                    )
+
+    with tab_review:
+        render_visit_grid(needs_review, "review")
+
+    with tab_perfect:
+        render_visit_grid(perfect_visits, "perfect")
+
+    with tab_all:
+        render_visit_grid(all_visits, "all")
 
 
 def find_source_images_for_prediction(equipment: dict, per_image_results: list) -> list[str]:
@@ -343,11 +435,11 @@ def render_visit(visit_id, eval_results):
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         p = visit_eval.get("precision")
-        st.metric("Precision", f"{p:.0%}" if p else "N/A",
+        st.metric("Precision", f"{p:.0%}" if p is not None else "N/A",
                   help="Of equipment we predicted, how many were correct?")
     with col2:
         r = visit_eval.get("recall")
-        st.metric("Recall", f"{r:.0%}" if r else "N/A",
+        st.metric("Recall", f"{r:.0%}" if r is not None else "N/A",
                   help="Of equipment that exists, how many did we find?")
     with col3:
         st.metric("Predicted", visit_eval.get("predicted_count", 0))
@@ -389,7 +481,8 @@ def render_visit(visit_id, eval_results):
         field_cols = st.columns(4)
         for i, (field, acc) in enumerate(fa.items()):
             with field_cols[i]:
-                st.metric(field.replace("_", " ").title(), f"{acc:.0%}" if acc else "N/A")
+                display_val = f"{acc:.0%}" if acc is not None else "N/A"
+                st.metric(field.replace("_", " ").title(), display_val)
 
     st.divider()
 
@@ -449,7 +542,7 @@ def render_visit(visit_id, eval_results):
                 eq_type = eq.get('equipment_type', 'unknown')
                 label = f"{status_icon} {eq_type.replace('_', ' ').title()}"
 
-                with st.expander(label, expanded=is_problem):
+                with st.expander(label, expanded=False):
                     st.write(f"Model: `{eq.get('model_number', 'N/A')}`")
                     st.write(f"Serial: `{eq.get('serial_number', 'N/A')}`")
                     st.write(f"Mfg Date: `{eq.get('manufacture_date', 'N/A')}`")
@@ -624,12 +717,23 @@ def render_image_view(visit_id: str, image_name: str):
 
 
 def main():
-    # Check for image view query params first
     query_params = st.query_params
+
+    # Check for image view query params
     if "view_image" in query_params and "img" in query_params:
         visit_id = query_params["view_image"]
         image_name = query_params["img"]
         render_image_view(visit_id, image_name)
+        return
+
+    # Check for visit query param (opened in new tab)
+    if "visit" in query_params:
+        visit_id = query_params["visit"]
+        eval_results = load_eval_results()
+        if eval_results:
+            render_visit(visit_id, eval_results)
+        else:
+            st.error("No eval_results.json found.")
         return
 
     eval_results = load_eval_results()
@@ -638,13 +742,7 @@ def main():
         st.error("No eval_results.json found. Run `python eval.py` first.")
         return
 
-    if "selected_visit" not in st.session_state:
-        st.session_state.selected_visit = None
-
-    if st.session_state.selected_visit:
-        render_visit(st.session_state.selected_visit, eval_results)
-    else:
-        render_home(eval_results)
+    render_home(eval_results)
 
 
 if __name__ == "__main__":
