@@ -96,22 +96,21 @@ def extract_from_image(client: genai.Client, image_path: str, max_retries: int =
 def aggregate_equipment(all_extractions: list[list[dict]]) -> list[dict]:
     """Merge equipment extractions across images.
 
-    Simple strategy: dedupe by (equipment_type, model_number, serial_number).
-    If same equipment appears multiple times, merge fields.
+    Dedupe by (model_number, serial_number) - same model+serial = same equipment.
+    If same equipment appears multiple times, merge fields (first equipment_type wins).
     """
     equipment_map = {}  # key -> equipment dict
 
     for extractions in all_extractions:
         for eq in extractions:
-            # Create a key for deduplication
+            # Create a key for deduplication - model+serial identifies unique equipment
             key = (
-                eq.get("equipment_type"),
                 eq.get("model_number"),
                 eq.get("serial_number"),
             )
 
             if key in equipment_map:
-                # Merge: fill in any missing fields
+                # Merge: fill in any missing fields (keep first equipment_type)
                 existing = equipment_map[key]
                 for field in ["model_number", "serial_number", "manufacture_date"]:
                     if not existing.get(field) and eq.get(field):
