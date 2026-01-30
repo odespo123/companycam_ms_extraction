@@ -1185,12 +1185,12 @@
     },
     {
       "visit_id": "710873103 - 8369_Buenning_Lane - 2025-07-09",
-      "predicted_count": 3,
+      "predicted_count": 2,
       "ground_truth_count": 1,
       "true_positives": 1,
-      "false_positives": 2,
+      "false_positives": 1,
       "false_negatives": 0,
-      "precision": 0.3333333333333333,
+      "precision": 0.5,
       "recall": 1.0,
       "field_accuracy": {
         "equipment_type": 0.0,
@@ -1201,9 +1201,9 @@
       "by_equipment_type": {
         "outdoor_condenser": {
           "expected": 1,
-          "found": 2,
+          "found": 1,
           "tp": 1,
-          "fp": 1,
+          "fp": 0,
           "fn": 0,
           "field_correct": {
             "model_number": 1,
@@ -1271,16 +1271,6 @@
             "model_number": "51-101920-26-00",
             "serial_number": "H019DI",
             "manufacture_date": "08/29/2016"
-          },
-          "ground_truth": null,
-          "field_correct": null
-        },
-        {
-          "predicted": {
-            "equipment_type": "outdoor_condenser",
-            "model_number": "RGEA14048AJT101AA",
-            "serial_number": "F461600030",
-            "manufacture_date": "11/2016"
           },
           "ground_truth": null,
           "field_correct": null
@@ -7586,9 +7576,9 @@
   "aggregate": {
     "total_visits": 85,
     "total_true_positives": 115,
-    "total_false_positives": 75,
+    "total_false_positives": 74,
     "total_false_negatives": 4,
-    "precision": 0.6052631578947368,
+    "precision": 0.6084656084656085,
     "recall": 0.9663865546218487,
     "field_accuracy": {
       "equipment_type": 0.9304347826086956,
@@ -7623,9 +7613,9 @@
       },
       "outdoor_condenser": {
         "expected": 60,
-        "found": 77,
+        "found": 76,
         "tp": 58,
-        "fp": 19,
+        "fp": 18,
         "fn": 2,
         "field_correct": {
           "model_number": 56,
@@ -7637,7 +7627,7 @@
           "serial_number": 58,
           "manufacture_date": 58
         },
-        "precision": 0.7532467532467533,
+        "precision": 0.7631578947368421,
         "recall": 0.9666666666666667,
         "field_accuracy": {
           "model_number": 0.9655172413793104,
