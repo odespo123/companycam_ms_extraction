@@ -205,6 +205,46 @@ def eval_visit(visit_dir: Path) -> dict | None:
     }
 
 
+def build_confusion_matrix(visit_results: list[dict]) -> dict:
+    """Build confusion matrix between predicted and ground truth equipment types.
+
+    Returns dict with:
+    - matrix: dict of {(gt_type, pred_type): count}
+    - gt_types: list of ground truth types (including "None" for FP)
+    - pred_types: list of predicted types (including "None" for FN)
+    """
+    from collections import defaultdict
+
+    matrix = defaultdict(int)
+    gt_types_set = set()
+    pred_types_set = set()
+
+    for visit in visit_results:
+        for match in visit.get("matches", []):
+            pred = match.get("predicted")
+            gt = match.get("ground_truth")
+
+            pred_type = pred.get("equipment_type") if pred else "None"
+            gt_type = gt.get("equipment_type") if gt else "None"
+
+            matrix[(gt_type, pred_type)] += 1
+            gt_types_set.add(gt_type)
+            pred_types_set.add(pred_type)
+
+    # Sort types, but keep "None" at the end
+    def sort_key(t):
+        return (t == "None", t)
+
+    gt_types = sorted(gt_types_set, key=sort_key)
+    pred_types = sorted(pred_types_set, key=sort_key)
+
+    return {
+        "matrix": {f"{gt}|{pred}": count for (gt, pred), count in matrix.items()},
+        "gt_types": gt_types,
+        "pred_types": pred_types,
+    }
+
+
 def aggregate_results(visit_results: list[dict]) -> dict:
     """Aggregate metrics across all visits."""
     total_tp = sum(v.get("true_positives", 0) for v in visit_results)
@@ -272,6 +312,9 @@ def aggregate_results(visit_results: list[dict]) -> dict:
             else:
                 data["field_accuracy"][field] = None
 
+    # Build confusion matrix
+    confusion = build_confusion_matrix(visit_results)
+
     return {
         "total_visits": len(visit_results),
         "total_true_positives": total_tp,
@@ -281,6 +324,7 @@ def aggregate_results(visit_results: list[dict]) -> dict:
         "recall": recall,
         "field_accuracy": field_accuracy,
         "by_equipment_type": by_type,
+        "confusion_matrix": confusion,
     }
 
 

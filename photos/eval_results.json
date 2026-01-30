@@ -4982,7 +4982,7 @@
         "equipment_type": 1.0,
         "model_number": 1.0,
         "serial_number": 1.0,
-        "manufacture_date": 1.0
+        "manufacture_date": 0.8333333333333334
       },
       "by_equipment_type": {
         "outdoor_condenser": {
@@ -4994,7 +4994,7 @@
           "field_correct": {
             "model_number": 2,
             "serial_number": 2,
-            "manufacture_date": 2
+            "manufacture_date": 1
           },
           "field_total": {
             "model_number": 2,
@@ -5004,7 +5004,7 @@
           "field_accuracy": {
             "model_number": 1.0,
             "serial_number": 1.0,
-            "manufacture_date": 1.0
+            "manufacture_date": 0.5
           }
         },
         "evaporator_coil": {
@@ -5076,13 +5076,13 @@
         {
           "predicted": {
             "equipment_type": "outdoor_condenser",
-            "model_number": "RA1436AJINA",
+            "model_number": "RA1436AJ1NA",
             "serial_number": "W272147711",
-            "manufacture_date": "07/2021"
+            "manufacture_date": null
           },
           "ground_truth": {
             "equipment_type": "outdoor_condenser",
-            "model_number": "RA1436AJINA",
+            "model_number": "RA1436AJ1NA",
             "serial_number": "W272147711",
             "manufacture_date": "07/2021"
           },
@@ -5090,7 +5090,7 @@
             "equipment_type": true,
             "model_number": true,
             "serial_number": true,
-            "manufacture_date": true
+            "manufacture_date": false
           }
         },
         {
@@ -5186,9 +5186,9 @@
         {
           "predicted": {
             "equipment_type": "outdoor_condenser",
-            "model_number": "RA1436AJ1NA",
+            "model_number": "RA1436AJINA",
             "serial_number": "W272147711",
-            "manufacture_date": null
+            "manufacture_date": "07/2021"
           },
           "ground_truth": null,
           "field_correct": null
@@ -7584,7 +7584,7 @@
       "equipment_type": 0.9304347826086956,
       "model_number": 0.9565217391304348,
       "serial_number": 0.9826086956521739,
-      "manufacture_date": 0.9652173913043478
+      "manufacture_date": 0.9565217391304348
     },
     "by_equipment_type": {
       "evaporator_coil": {
@@ -7620,7 +7620,7 @@
         "field_correct": {
           "model_number": 56,
           "serial_number": 58,
-          "manufacture_date": 55
+          "manufacture_date": 54
         },
         "field_total": {
           "model_number": 58,
@@ -7632,7 +7632,7 @@
         "field_accuracy": {
           "model_number": 0.9655172413793104,
           "serial_number": 1.0,
-          "manufacture_date": 0.9482758620689655
+          "manufacture_date": 0.9310344827586207
         }
       },
       "furnace": {
@@ -7707,6 +7707,44 @@
           "manufacture_date": 1.0
         }
       }
+    },
+    "confusion_matrix": {
+      "matrix": {
+        "evaporator_coil|evaporator_coil": 24,
+        "outdoor_condenser|outdoor_condenser": 57,
+        "None|evaporator_coil": 19,
+        "None|outdoor_condenser": 18,
+        "None|furnace": 10,
+        "water_heater|water_heater": 8,
+        "air_handler|air_handler": 8,
+        "None|air_handler": 16,
+        "furnace|evaporator_coil": 1,
+        "air_handler|furnace": 2,
+        "furnace|furnace": 10,
+        "None|water_heater": 11,
+        "outdoor_condenser|furnace": 1,
+        "air_handler|evaporator_coil": 3,
+        "evaporator_coil|None": 1,
+        "outdoor_condenser|None": 2,
+        "evaporator_coil|air_handler": 1,
+        "air_handler|None": 1
+      },
+      "gt_types": [
+        "air_handler",
+        "evaporator_coil",
+        "furnace",
+        "outdoor_condenser",
+        "water_heater",
+        "None"
+      ],
+      "pred_types": [
+        "air_handler",
+        "evaporator_coil",
+        "furnace",
+        "outdoor_condenser",
+        "water_heater",
+        "None"
+      ]
     }
   }
 }

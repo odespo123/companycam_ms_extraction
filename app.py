@@ -214,6 +214,39 @@ def render_home(eval_results):
                         st.session_state.filter_status = "all"
                         st.rerun()
 
+    # Confusion Matrix
+    confusion = agg.get("confusion_matrix")
+    if confusion:
+        with st.expander("Confusion Matrix (Ground Truth vs Predicted)"):
+            st.caption("Rows = Ground Truth, Columns = Predicted. 'None' = no matching record.")
+
+            gt_types = confusion.get("gt_types", [])
+            pred_types = confusion.get("pred_types", [])
+            matrix = confusion.get("matrix", {})
+
+            # Build table data
+            import pandas as pd
+            data = []
+            for gt in gt_types:
+                row = {"Ground Truth": gt.replace("_", " ").title() if gt != "None" else "None (FP)"}
+                for pred in pred_types:
+                    key = f"{gt}|{pred}"
+                    count = matrix.get(key, 0)
+                    col_name = pred.replace("_", " ").title() if pred != "None" else "None (FN)"
+                    row[col_name] = count
+                data.append(row)
+
+            df = pd.DataFrame(data)
+            df = df.set_index("Ground Truth")
+
+            # Style: highlight diagonal (correct predictions) and zero out display of 0s
+            def style_matrix(val):
+                if val == 0:
+                    return "color: #ccc"
+                return ""
+
+            st.dataframe(df.style.map(style_matrix), use_container_width=True)
+
     st.divider()
 
     # Categorize visits
