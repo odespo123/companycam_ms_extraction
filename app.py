@@ -374,20 +374,35 @@ def render_home(eval_results):
 
 
 def find_source_images_for_prediction(equipment: dict, per_image_results: list) -> list[str]:
-    """Find which images contributed to this predicted equipment."""
-    source_images = []
+    """Find which images contributed to this predicted equipment.
+
+    Uses same priority matching as eval.py:
+    1. Both model AND serial match (strongest)
+    2. Serial matches (serials are unique)
+    3. Model matches (weakest - multiple units can share model)
+    """
     model = equipment.get("model_number")
     serial = equipment.get("serial_number")
 
+    # Pass 1: both model AND serial match
     for img_data in per_image_results:
         for eq in img_data.get("equipment", []):
-            # Match by model or serial
-            if (model and eq.get("model_number") == model) or \
-               (serial and eq.get("serial_number") == serial):
-                source_images.append(img_data["image"])
-                break
+            if model and serial and eq.get("model_number") == model and eq.get("serial_number") == serial:
+                return [img_data["image"]]
 
-    return source_images
+    # Pass 2: serial matches
+    for img_data in per_image_results:
+        for eq in img_data.get("equipment", []):
+            if serial and eq.get("serial_number") == serial:
+                return [img_data["image"]]
+
+    # Pass 3: model matches
+    for img_data in per_image_results:
+        for eq in img_data.get("equipment", []):
+            if model and eq.get("model_number") == model:
+                return [img_data["image"]]
+
+    return []
 
 
 def find_source_image_for_groundtruth(equipment: dict, metadata: dict) -> str | None:
